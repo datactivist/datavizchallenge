@@ -1,0 +1,324 @@
+---
+title: "Introduction au data pipeline"
+subtitle: "Une méthodologie de réutilisation de données"
+author: "Datactivist"
+date: "Dataviz challenge, 22 mars 2019"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts, ./libs/custom.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Atelier Data Pipeline
+  slug: datapipeline
+
+---
+
+class: center, middle
+
+Retrouvez les matériaux sur https://github.com/datactivist/datavizchallenge/
+
+Ces slides en ligne : http://datactivist.coop/datavizchallenge/2/
+
+Les contenus créés par Datactivist sont placés sous [licence Creative Commons CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/deed.fr). 
+
+La méthodologie du data pipeline a été développée par [School of Data](https://schoolofdata.org/methodology).
+
+<img src="./img/Logo_DATACTIVIST_TW.png" height="100px" />
+
+---
+
+## Déroulé de l'atelier
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+Nous allons suivre la méthodologie du [Data Pipeline](http://schoolofdata.org/methodology) développée par School of Data 
+
+* Une méthodologie générique pour la découverte et l'usage de données ouvertes
+
+* 7 étapes qui, selon les projets, prennent une importance plus ou moins grande. 
+
+]
+
+---
+
+class:middle, center
+#  Au fait, c'est quoi une donnée ouverte ?
+
+### Une donnée ouverte est une donnée qui peut être librement utilisée, réutilisée et redistribuée par quiconque.
+
+.footer[[Open Definition](http://opendefinition.org/)]
+
+---
+
+## Définir
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+#### Définir précisément votre problème
+
+#### Que cherchez vous à comprendre ?
+
+#### Quelles données vous seraient utiles ?
+
+]
+
+---
+
+## Définir, c'est trouver un angle à votre sujet
+
+![](./img/expe.png)
+.footnote[[](https://fr.okfn.org/2014/07/03/a-la-conquete-des-donnees-sur-la-pollution-de-lair/)]
+
+---
+
+## Trouver
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+#### Utiliser les opérateurs spéciaux
+
+#### Chercher sur les portails open data
+
+#### Utiliser les facettes pour trouver les bonnes données
+
+#### Extraire des données d'OpenStreetMap
+
+#### S'appuyer sur des ressources de [curation de données](https://teamopendata.org/t/curation-de-donnees-data-is-plural/734)
+]
+
+---
+## Utiliser les opérateurs spéciaux
+
+Exemple avec la requête "site:education.gouv.fr filetype:xlsx" :
+![](./img/filetype.gif)
+
+---
+## Utiliser les facettes pour trouver les bonnes données
+
+.pull-left[
+![](./img/facettes.png)
+]
+
+.pull-right[
+Les facettes sont des filtres dans les métadonnées. 
+
+Elles permettent de sélectionner par exemple uniquement un certain producteur. 
+
+Cela peut faire gagner beaucoup de temps dans une recherche de données.
+]
+---
+## Utiliser les facettes pour trouver les bonnes données
+
+![](./img/ECOLE.png)
+.pull-left[
+Sans filtre par facette, à la requête écoles, on a des résultats étonnants en première page comme ces données de la FEMIS.  
+]
+
+.pull-right[
+En gardant uniquement "Education Nationale"" dans la facette organisation, on s'assure de trouver des données nationales. 
+]
+---
+## Utiliser Google Dataset Search
+
+Google propose depuis quelques temps ce [moteur de recherche](https://toolbox.google.com/datasetsearch) aggrégant de très nombreux portails open data. Les résultats sont inégaux mais le moteur est encore nouveau…
+
+[![](./img/datasetsearch.png)](https://toolbox.google.com/datasetsearch)
+
+---
+## Chercher dans le [réseau de données OpenDataSoft](data.opendatasoft.com)
+OpenDataSoft référence tous les jeux de données publiés sur l'ensemble de ses portails. Parmi eux, le portail Public référence des jeux de données introuvables ailleurs comme la [localisation des radars](https://data.opendatasoft.com/explore/dataset/radars%40public/table/). 
+![](./img/dataods.png)
+---
+## Trouver le bon tag sur OSM
+La page "[Elements Cartographiques](https://wiki.openstreetmap.org/wiki/FR:%C3%89l%C3%A9ments_cartographiques)" sur le wiki d'OSM recense tous les tags utilisés dans la base de données. 
+
+[![](./img/mapfeatures.png)](https://wiki.openstreetmap.org/wiki/FR:%C3%89l%C3%A9ments_cartographiques)
+.footnote[Plus d'infos : https://datactivist.coop/atelier-osm/]
+
+---
+## Utiliser des [ressources de curation de données](https://teamopendata.org/t/curation-de-donnees-data-is-plural/734)
+
+Je recense sur [TeamOpenData](https://teamopendata.org/t/curation-de-donnees-data-is-plural/734) les meilleures ressources de curation de données. Une recherche vous aidera à trouver des données internationales que vous ne trouverez généralement pas autrement. 
+
+Par exemple, l'excellente [newsletter Data Is Plural](https://tinyletter.com/data-is-plural/) propose chaque semaine une présentation des meilleurs jeux de données qui sont archivés dans une [feuille de calcul](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0).
+
+[![](./img/dataisplural.png)](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
+---
+## Récupérer 
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+- #### Téléchargement direct
+
+- #### API ou web service
+
+- #### Scrapping de données
+
+- #### Copier / coller
+
+- #### Extraction (OpenStreetMap)
+
+
+]
+
+---
+## Scrapping de données : quelques outils
+
+[import.io](import.io) est un excellent outil qui facilite grandement l'extraction des données depuis un site web. L'outil détecte automatiquement la structure des données sur le site. 
+
+![](http://andrewbtran.github.io/JRN-418/class7/import3.png)
+.footnote[Loïc Haÿ a développé un [tutoriel](https://www.dropbox.com/s/yarrneyseghd7d6/05-%20Extraire%20des%20donn%C3%A9es%20%C3%A0%20partir%20de%20pages%20web.pdf?dl=0) pour utiliser import.io.]
+
+---
+## Scrapping de données : quelques outils
+
+L'extension [Scraper](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd?hl=fr) pour Chrome permet d'extraire en quelques clics les données d'un site. 
+
+![](./img/scrap.gif)
+
+---
+### Extraire des données d'OpenStreetMap
+
+[Overpass-Turbo](overpass-turbo.eu) permet d'extraire des éléments spécifiques dans la base de données OpenStreetMap. Exemple ici avec les écoles dans l'Yonne : 
+
+![](./img/overpass.gif)
+.footnote[Plus d'infos : https://datactivist.coop/atelier-osm/]
+---
+
+## Vérifier 
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+
+.pull-right[
+
+- #### Bon sens
+
+- #### Demander à la source
+
+- #### S'appuyer sur des communautés d’experts
+
+- #### Statistiques
+
+
+]
+
+---
+## S'appuyer sur les commentaires dans data.gouv.fr
+
+data.gouv.fr permet aux usagers de discuter autour des données, cela vous aidera à détecter les problèmes avec les données. 
+
+[![](./img/rne.gif)](https://www.data.gouv.fr/fr/datasets/donnees-du-repertoire-national-des-elus/)
+
+---
+## WTFCsv pour faire un contrôle rapide des données
+
+[WTFCSV](https://www.databasic.io/en/wtfcsv/) est un outil de médiation de données qui propose un aperçu de vos fichiers CSV. 
+
+[![](./img/wtfcsv.png)](https://www.databasic.io/en/wtfcsv/results/5b73338c9dfb0a00e15f07ff#tooltip)
+
+---
+## Nettoyer 
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+- #### Toilettage
+
+- #### Edition
+
+- #### Consolidation
+
+- #### Erreurs fréquentes
+Format pour les dates
+Les doublons
+Les fautes d’orthographe
+
+]
+
+---
+## Open Refine pour nettoyer les données
+
+[OpenRefine](http://openrefine.org/) est un outil puissant pour explorer, transformer et rapprocher des données. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cO8NVCs_Ba0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+.footnote[Mathieu Saby a publié un [tutoriel complet](http://opendata.maregionsud.fr/fileadmin/user_upload/tx_ausynews/ODL/ODL_OpenRefine_Marseille_2017-06-09-v2.pdf). ]
+
+---
+## Le [sprint qualité](https://infolabs.io/sprint-qualite) pour détecter les problèmes dans les données
+
+[![](./img/sprint.png)](https://infolabs.io/sprint-qualite)
+
+---
+## Le [Quartz Bad Data Guide](https://infolabs.io/sprint-qualite) : un résumé des problèmes avec les données
+
+[![](./img/quartz.gif)](https://github.com/Quartz/bad-data-guide)
+
+
+---
+
+## Analyser 
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+#### Type d’analyse
+- Analyse statistique
+- Analyse spatiale
+
+#### Outils
+
+- Tableur
+- R
+- QGIS (données géo)
+- Etc.
+
+]
+
+---
+
+## Présenter
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+
+.pull-right[
+
+### Communiquer les résultats de votre analyse au public.
+
+Flourish
+https://flourish.studio/
+
+Datawrapper
+https://www.datawrapper.de/
+
+Infogram
+https://infogram.com/
+
+DIVE
+https://dive.media.mit.edu/
+
+.footnote[Voir atelier demain à 10h "choisir un format et un outil de visualisation"]
+]
