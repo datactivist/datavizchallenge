@@ -10,7 +10,7 @@ link-citations: yes
 description: "Le guide d’organisation d’un data sprint propose des conseils méthodologiques  et des documents type pour favoriser l’essaimage des formats de prototypage rapides à partir de données au sein du Ministère de l’Education nationale et de la Jeunesse, ses partenaires et dans les territoires."
 ---
 
-# Introduction
+# Introduction {-}
 
 A la suite du dataviz challenge organisé les 22 et 23 mars 2019, le guide d’organisation d’un data sprint doit : 
 * Permettre l’essaimage du format au sein du Ministère de l’Education nationale et de la Jeunesse et auprès de ses partenaires ainsi que dans les territoires
