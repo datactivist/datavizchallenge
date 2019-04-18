@@ -7,15 +7,15 @@
     "folds" : "",
     "hash" : "0",
     "id" : "795EA291",
-    "lastKnownWriteTime" : 1555552986,
-    "last_content_update" : 1555552986679,
+    "lastKnownWriteTime" : 1555578891,
+    "last_content_update" : 1555578891159,
     "path" : "~/Dropbox/R/datavizchallenge/guide/04-animation.Rmd",
     "project_path" : "guide/04-animation.Rmd",
     "properties" : {
-        "cursorPosition" : "22,375",
-        "scrollLine" : "17"
+        "cursorPosition" : "43,3",
+        "scrollLine" : "32"
     },
-    "relative_order" : 6,
+    "relative_order" : 4,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_markdown"

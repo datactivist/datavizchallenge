@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "4196077740",
+    "hash" : "0",
     "id" : "38CAF56F",
-    "lastKnownWriteTime" : 1555552712,
-    "last_content_update" : 1555552712095,
+    "lastKnownWriteTime" : 1555575836,
+    "last_content_update" : 1555575836045,
     "path" : "~/Dropbox/R/datavizchallenge/guide/02-principes.Rmd",
     "project_path" : "guide/02-principes.Rmd",
     "properties" : {
-        "cursorPosition" : "25,0",
-        "scrollLine" : "23"
+        "cursorPosition" : "64,150",
+        "scrollLine" : "59"
     },
     "relative_order" : 2,
     "source_on_save" : false,

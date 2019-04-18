@@ -173,7 +173,7 @@ L’outil propose également une vision évolutive de ces indicateurs dans le te
 knitr::include_graphics(rep("./img/antiseche.png"))
 ```
 
-## DÉFI 3 : «Carto du numérique dans les territoires»
+## Défi 3 : «Carto du numérique dans les territoires»
 
 ### Cadrage du défi
 

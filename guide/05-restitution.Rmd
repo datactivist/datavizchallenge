@@ -1,7 +1,35 @@
-# La restitution et la suite
+# La restitution et la suite {#restitution}
 
 ## Les présentations des projets
 
+Le timing
+
+Récupération des présentations
+
+Demi-finale/finale ou finale en plenière ?
+
 ## La délibération du jury
 
+Modèle Airtable : https://airtable.com/tbluLNQYV6eePmLw1/viwEFKUFYmTtF3SQ2?blocks=hide
+
+Fiche critères d'évaluation : https://docs.google.com/spreadsheets/d/1t_wpk0EityvplEkwQTYeQqbSN61RlNSRmkLtl58doxY/edit#gid=0
+
+## La reprise de la documentation
+
+Contacter les participants 
+Combler les manques dans la documentation
+Raconter les projets de manière narrative
+
+## Le sondage et le débriefing 
+
+Modèle de questionnaire 
+
+Analyse du questionnaire, méthode DAKI
+
+Faire une restitution publique : https://datafin.fr/enquete-sur-le-hackathon-datafin-de-juin-2018
+
 ## L’accompagnement à donner
+
+Présenter les résultats du projet à des décideurs
+Financer la suite 
+

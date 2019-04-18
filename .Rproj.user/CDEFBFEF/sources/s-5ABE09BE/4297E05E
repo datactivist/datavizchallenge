@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3931696048",
+    "hash" : "0",
     "id" : "4297E05E",
-    "lastKnownWriteTime" : 1555532263,
-    "last_content_update" : 1555532263,
+    "lastKnownWriteTime" : 1555578910,
+    "last_content_update" : 1555578910530,
     "path" : "~/Dropbox/R/datavizchallenge/guide/index.Rmd",
     "project_path" : "guide/index.Rmd",
     "properties" : {
-        "cursorPosition" : "24,22",
-        "scrollLine" : "14"
+        "cursorPosition" : "4,29",
+        "scrollLine" : "0"
     },
     "relative_order" : 1,
     "source_on_save" : false,

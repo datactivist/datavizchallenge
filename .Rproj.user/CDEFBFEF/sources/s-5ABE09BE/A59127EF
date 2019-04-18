@@ -13,7 +13,7 @@
     "project_path" : "guide/_output.yml",
     "properties" : {
     },
-    "relative_order" : 4,
+    "relative_order" : 5,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "yaml"

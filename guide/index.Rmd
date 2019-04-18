@@ -21,5 +21,3 @@ Le guide est open source, il s'appuie sur le [travail réalisé par Datactivist 
 
 Pour favoriser la réplication de l'évènement, le guide comprend des conseils méthodologiques ainsi que des documents type qui faciliteront l'organisation de ce type d'évènements.  
 
-
-## Le contenu du guide
