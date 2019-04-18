@@ -160,11 +160,11 @@ knitr::include_graphics(rep("./img/open.png"))
 ### Antisèche
 > [Lien vers la documentation](http://datavizchallenge.fr/t/dataviz-r-shinyapp/74)
 
-**Contexte : **Lors de leurs déplacements, les recteurs et agents du ministère ont besoin d’accéder rapidement à une vue synthétique des principales caractéristiques d’un établissement, où qu’ils soient et sans avoir forcément accès à un poste informatique. Ils cherchent également à pouvoir développer une vision comparative des informations entre les établissements, afin de pouvoir orienter leur discours et prise de décision. 
+**Contexte : ** Lors de leurs déplacements, les recteurs et agents du ministère ont besoin d’accéder rapidement à une vue synthétique des principales caractéristiques d’un établissement, où qu’ils soient et sans avoir forcément accès à un poste informatique. Ils cherchent également à pouvoir développer une vision comparative des informations entre les établissements, afin de pouvoir orienter leur discours et prise de décision. 
 
 Comment concevoir un outil répondant à l’ensemble de ces besoins ?
 
-**Produit final¨: Prototype d’application permettant une visualisation géolocalisée des établissements, et d’accéder à une présentation synthétique et ergonomique de leurs indicateurs principaux (nombre d’élèves, taux de réussite au Brevet des Collèges, cours et options proposées, capacité d’accueil, nombre d’enseignants par élève, etc).
+**Produit final**: Prototype d’application permettant une visualisation géolocalisée des établissements, et d’accéder à une présentation synthétique et ergonomique de leurs indicateurs principaux (nombre d’élèves, taux de réussite au Brevet des Collèges, cours et options proposées, capacité d’accueil, nombre d’enseignants par élève, etc).
 
 L’outil propose également une vision évolutive de ces indicateurs dans le temps, ainsi qu’une fonction de filtrage permettant de cibler les variables d’intérêt  ¨
 
