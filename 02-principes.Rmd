@@ -1,0 +1,10 @@
+# Les principes d’un sprint data réussi {#principes}
+
+## Historique : d’où viennent les data sprints ? 
+
+## Hackathon, data sprints, dataviz challenge, data camps : définition des formats
+
+## Les 3 ingrédients essentiels : défis, données, participants
+
+## Les facteurs clés de succès 
+
