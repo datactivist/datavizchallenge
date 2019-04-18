@@ -1,6 +1,0 @@
-book_filename: "guide"
-delete_merged_file: false
-output_dir: "docs"
-language:
-  ui:
-    chapter_name: "Chapitre"

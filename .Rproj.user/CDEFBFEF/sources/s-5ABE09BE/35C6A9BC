@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555550840409.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "40948880",
+    "id" : "35C6A9BC",
+    "lastKnownWriteTime" : 1555550853,
+    "last_content_update" : 1555550853471,
+    "path" : "~/Dropbox/R/datavizchallenge/guide/_bookdown.yml",
+    "project_path" : "guide/_bookdown.yml",
+    "properties" : {
+        "cursorPosition" : "1,24",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}

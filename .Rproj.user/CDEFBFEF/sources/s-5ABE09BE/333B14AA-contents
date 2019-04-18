@@ -1,0 +1,23 @@
+# Les principes d’un sprint data réussi {#principes}
+
+## Historique : d’où viennent les data sprints ? 
+
+Historiquement, les concours répliquent un des rites des hackers, les « marathons » de développement qui se déroulent pendant les conférences des communautés issues du logiciel libre. Lors de ces évènements, les participants se regroupent pour développer les logiciels pendant d’intenses sessions d’écriture de code : « les participants s’adonnent frénétiquement au hacking et rendent visibles les liens qui existent entre eux, leur donnant une plus grande intensité » comme l’explique Gabriella Coleman dans Coding Freedom – The Ethics and Aesthetics of Hacking. 
+
+Les concours de réutilisation de données ouvertes sont aussi liés à l’émergence de deux concepts : le crowdsourcing qui considère que la participation massive (et généralement bénévole) des internautes peut être une source majeure de création de valeur voire de renouvellement de la démocratie et l’innovation ouverte qui consiste à diffuser une partie de l’information stratégique à des acteurs extérieurs qui, par la mise en compétition ou leur nombre, parviendront à mieux innover que les ressources internes dont dispose l’organisation. 
+
+Dans le domaine des données ouvertes, Apps for Democracy a été un des premiers concours de développement de services. Il s’est tenu à Washington en 2008, quelques mois après le lancement de l’App Store d’Apple et du développement de l’écosystème des applications mobiles. Cet évènement a inspiré le développement de nombreux concours d’applications notamment par la publication d’un guide qui a détaillé pas à pas comment faire participer les développeurs à un concours d’applications et a permis l’essaimage de ce modèle dans de nombreuses villes. 
+
+En particulier, le guide d’Apps for Democracy a insisté sur les retombées économiques de l’évènement de 2008, la valeur des 47 applications créées étant estimée à 2 300 000 $ pour un coût de l’opération de 50 000 $. En démontrant la valeur économique des concours d’application, Apps for Democracy a constitué des ressources essentielles dans l’essaimage de cette forme de participation. 
+```{r echo=FALSE, out.width='50%', fig.align='center', fig.cap='Extrait du livret du dataviz challenge représentant la diversité des participants', }
+knitr::include_graphics(rep("./img/participants.png"))
+```
+
+
+## Hackathon, data sprints, dataviz challenge, data camps : définition des formats
+
+
+## Les 3 ingrédients essentiels : défis, données, participants
+
+## Les facteurs clés de succès 
+

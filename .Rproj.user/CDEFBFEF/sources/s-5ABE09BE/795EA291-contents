@@ -1,0 +1,31 @@
+# L’animation du data sprint {#animation}
+
+## Les trois temps créatifs : inspiration, idéation, prototypage
+
+Même si chaque événement a ses particularités, on retrouvera dans le DataViz Challenge les 3 temps du mouvement créatif.
+
+```{r echo=FALSE, out.width='70%', fig.align='center', fig.cap='Les 3 temps du mouvement créatif (source : Danvang)', }
+knitr::include_graphics(rep("./img/ideo.png"))
+```
+
+**Inspiration**
+Cette première phase vise à définir le problème et
+consiste à expliciter les défis pour s’assurer qu’ils soient bien compris par les participants. Le public doit pouvoir reformuler les défis proposés et développer une compréhension partagée des enjeux.
+
+**Idéation**
+La seconde phase consiste à générer une multitude d’idées
+autour du problème défini dans la phase précédente. Les participants sont incités à explorer de nouvelles solutions aux défis et, après un vote ou une phase de délibération, sélectionner les propositions pour constituer un nombre limité d’équipes.
+
+**Implémentation**
+Enfin, la troisième phase occupe la majeure partie de l’événement puisque les participants prototypent, voire développent, dans un temps limité, les visualisations de
+données ou services qui tentent de répondre aux défis.
+
+L’événement se terminera par l’attribution d’un prix à valeur symbolique, pour valoriser les projets jugés les plus aboutis selon un jury constitué d’experts de l’analyse de données ou de la thématique traitée. Il n’y a pour autant pas de gagnants ni de perdants, cette sélection sert surtout à donner de la visibilité aux projets les plus emblématiques issus du data sprint.
+
+## Les ateliers de formation
+
+## Les temps de pause et d’inspiration
+
+## La documentation des projets
+
+## Quelques questions logistiques

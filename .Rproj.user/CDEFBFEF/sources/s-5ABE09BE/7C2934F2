@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555550911801.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1615963509",
+    "id" : "7C2934F2",
+    "lastKnownWriteTime" : 1555553028,
+    "last_content_update" : 1555553028180,
+    "path" : "~/Dropbox/R/datavizchallenge/guide/03-preparation.Rmd",
+    "project_path" : "guide/03-preparation.Rmd",
+    "properties" : {
+        "cursorPosition" : "17,18",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

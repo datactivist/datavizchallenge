@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555550914160.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4196077740",
+    "id" : "38CAF56F",
+    "lastKnownWriteTime" : 1555552712,
+    "last_content_update" : 1555552712095,
+    "path" : "~/Dropbox/R/datavizchallenge/guide/02-principes.Rmd",
+    "project_path" : "guide/02-principes.Rmd",
+    "properties" : {
+        "cursorPosition" : "25,0",
+        "scrollLine" : "23"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
