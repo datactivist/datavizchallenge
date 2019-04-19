@@ -41,7 +41,7 @@ Le retroplanning est organisé suivant cinq grandes sections dans laquelle figur
 En suivant ce retroplanning type dès le début de votre évènement, vous devriez pouvoir planifier et répartir au mieux la charge de travail. Il vous évitera aussi de négliger un point important de l'organisation de l'évènement. Toutefois, de notre expérience, certains points méritent une attention toute particulière. 
 		
 
-## La logistique
+## Anticiper la logistique
 
 L'organisation d'un sprint data demande un travail important de gestion logistique à répartir dans l'équipe projet pour éviter une surcharge.
 
@@ -61,21 +61,29 @@ De notre expérience, voici quelques points d'attention à prendre en compte sur
 
 
 
-### La préparation des données
-Les obtenir le plus en amont possible
+### Préparer les données en amont
 
-Les faire expertiser par un spécialiste
+Lorsque la diffusion des données est une démarche inédite qui n'a pas été entreprise précédemment, obtenir les données en amont de l'évènement peut être long et fastidueux. Or, pour éviter tout problème, nous vous recommandons d'obtenir les données deux ou trois semaines en amont de l'évènement. Ce délai vous permettra de contrôler le contenu des données, de palier à d'éventuels problèmes d'anonymisation ou de protection des secrets légaux, de documenter au mieux les données et d'améliorer leur qualité. Attention aussi à bien prendre compte que, dans de nombreux cas, l'ouverture peut se heurter à des systèmes d'information qui n'ont pas été prévus pour l'extraction des données et peuvent demander un travail considérable pour les _database managers_. 
 
-Datasheet for datasets
+Plus vous anticipez, plus vous pourrez préparer au mieux les données et vous limiterez le temps passé par les participants à nettoyer les données. On dit souvent que 80% du temps de travail d'un data scientist est dédié au nettoyage de données. Pour améliorer la qualité des données, vous pourrez vous appuyer sur le travail réalisé par la Fondation Internet Nouvelle Génération (FING) avec le [sprint qualité](https://infolabs.io/sprint-qualite) qui permet en 2H30 de faire un contrôle des principaux problèmes de qualité des données. Le [Quartz Bad Data Guide](https://github.com/Quartz/bad-data-guide/blob/master/README.md) (en anglais) produit aussi une série de points de contrôle pour améliorer les données. Faire expertiser les données par un spécialiste en amont de l'évènement pourra aussi vous aider à détecter des problèmes de qualité. Enfin, l'outil [Dataproofer](http://dataproofer.org/) exerce un certain nombre de contrôles automatiques sur les données vous permettant une analyse rapide. 
 
-Cas des données confidentielles
+Tous les problèmes de qualité ne pourront éviter pas être corrigés avant l'évènement. Mais une documentation précise des données permettra de prévenir les réutilisateurs et de les aider à mieux comprendre les données. Nous vous recommandons de vous appuyons sur le modèle [Datasheet for Datasets](https://arxiv.org/pdf/1803.09010.pdf) (traduit [ici](https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400) en français) qui propose le concept de fiche technique pour les jeux de données. Le modèle propose que C-chaque jeu de données soit accompagné d’une fiche technique documentant sa création, sa composition, les utilisations prévues, sa maintenance et d’autres propriétés. [Une liste de questions](https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400) permet de guider les producteurs de données dans les sujets à aborder dans la description des données. Ces questions peuvent aussi servir de guide d'entretien en vue de la documentation des données.
+
+Enfin, certaines données pourront nécessiter un travail important d'anonymisation. Il est important de noter qu'il ne suffit pas de retirer les noms d'une base de données pour qu'elle soit anonymisée : certaines champs dans un enregistrement peuvent permettre de réidentifier un individu. La Commission d'Accès aux Documents Administratifs (CADA) et la Commission Nationale Informatique et Liberté (CNIL) ont produit un [guide pratique de la publication en ligne et de la réutilisation des données publiques](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf#page=13) qui comporte un passage sur l’anonymisation des documents contenant des données à
+caractère personnel. L'Administrateur Général des Données a produit un [guide technique de l'anonymisation des données](https://github.com/SGMAP-AGD/anonymisation/wiki/Guide-de-l'anonymisation) qui présente une série d'outils et décrit les deux méthodes principales : 
+
+* La randomisation, qui altère la véracité des données afin d'affaiblir le lien entre les données et l'individu et de rendre les données suffisamment incertaines afin qu'elles ne puissent plus être rattachées à un individu en particulier.
+
+* La généralisation, qui dilue les attributs des personnes concernées en modifiant leur échelle ou leur ordre de grandeur respectif (en passant d'une échelle communale à une échelle régionale, par exemple).
+
+Nous vous recommandons aussi [cette présentation](https://docs.google.com/presentation/d/1YKFeMwqSxfKeb3HuujWq0zB-DfG19O_aXxNCpG7_fBU/edit#slide=id.p3) de Pierre-Alain Jachiet (Lab Santé - OpenChronic) qui décrit en détail les principales méthodes d'anonymisation de données. 
 
 
 ### Le recrutement des participants et la mobilisation des mentors
 
 Communiquer tôt
 Demander des infos sur l'expérience data sprint et les compétences 
-
+Relance des participants
 
 ### La mise en place des espaces de discussion et de documentation
 

@@ -97,8 +97,8 @@
 </ul></li>
 <li class="chapter" data-level="3" data-path="preparation.html"><a href="preparation.html"><i class="fa fa-check"></i><b>3</b> Les points d’attention dans la préparation du data sprint</a><ul>
 <li class="chapter" data-level="3.1" data-path="preparation.html"><a href="preparation.html#planifier-et-repartir-le-travail"><i class="fa fa-check"></i><b>3.1</b> Planifier et répartir le travail</a></li>
-<li class="chapter" data-level="3.2" data-path="preparation.html"><a href="preparation.html#la-logistique"><i class="fa fa-check"></i><b>3.2</b> La logistique</a><ul>
-<li class="chapter" data-level="3.2.1" data-path="preparation.html"><a href="preparation.html#la-preparation-des-donnees"><i class="fa fa-check"></i><b>3.2.1</b> La préparation des données</a></li>
+<li class="chapter" data-level="3.2" data-path="preparation.html"><a href="preparation.html#anticiper-la-logistique"><i class="fa fa-check"></i><b>3.2</b> Anticiper la logistique</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="preparation.html"><a href="preparation.html#preparer-les-donnees-en-amont"><i class="fa fa-check"></i><b>3.2.1</b> Préparer les données en amont</a></li>
 <li class="chapter" data-level="3.2.2" data-path="preparation.html"><a href="preparation.html#le-recrutement-des-participants-et-la-mobilisation-des-mentors"><i class="fa fa-check"></i><b>3.2.2</b> Le recrutement des participants et la mobilisation des mentors</a></li>
 <li class="chapter" data-level="3.2.3" data-path="preparation.html"><a href="preparation.html#la-mise-en-place-des-espaces-de-discussion-et-de-documentation"><i class="fa fa-check"></i><b>3.2.3</b> La mise en place des espaces de discussion et de documentation</a></li>
 <li class="chapter" data-level="3.2.4" data-path="preparation.html"><a href="preparation.html#la-preparation-du-programme"><i class="fa fa-check"></i><b>3.2.4</b> La préparation du programme</a></li>
@@ -172,8 +172,8 @@ Figure 3.1: Le modèle de <a href="https://docs.google.com/spreadsheets/d/13-dec
 </ul>
 <p>En suivant ce retroplanning type dès le début de votre évènement, vous devriez pouvoir planifier et répartir au mieux la charge de travail. Il vous évitera aussi de négliger un point important de l’organisation de l’évènement. Toutefois, de notre expérience, certains points méritent une attention toute particulière.</p>
 </div>
-<div id="la-logistique" class="section level2">
-<h2><span class="header-section-number">3.2</span> La logistique</h2>
+<div id="anticiper-la-logistique" class="section level2">
+<h2><span class="header-section-number">3.2</span> Anticiper la logistique</h2>
 <p>L’organisation d’un sprint data demande un travail important de gestion logistique à répartir dans l’équipe projet pour éviter une surcharge.</p>
 <p>De notre expérience, voici quelques points d’attention à prendre en compte sur la partie logistique :</p>
 <ul>
@@ -184,16 +184,21 @@ Figure 3.1: Le modèle de <a href="https://docs.google.com/spreadsheets/d/13-dec
 <li><p><strong>Espace détente</strong> : avec le bruit des équipes qui travaillent, il peut être dur de se concentrer et de se relaxer. Pensez à mettre à disposition un espace de relaxation avec en permanence des boissons chaudes et, si possible, une restauration légère en cas de fringale (des fruits secs par exemple). Il est aussi recommandé, si le lieu le permet, de mettre à disposition une salle de réunion pour que les équipes puissent préparer les pitchs, le jury sélectionne les projets, les organisateurs se coordonnent…</p></li>
 <li><p><strong>Préparation de la salle</strong> : pensez à avoir des renforts la veille du jour J pour mettre en place l’espace. Prévoyez un espace suffisamment grand pour les présentations en plenière et les pictchs des projets, mettez en place des tables comprenant une place suffisante pour l’équipe (5 personnes pour le dataviz challenge) et un siège pour les mentors. Sur chaque table, prévoyez des prises éléctriques et du matériel de créativité (post-its, feutres, tableaux blancs…)</p></li>
 </ul>
-<div id="la-preparation-des-donnees" class="section level3">
-<h3><span class="header-section-number">3.2.1</span> La préparation des données</h3>
-<p>Les obtenir le plus en amont possible</p>
-<p>Les faire expertiser par un spécialiste</p>
-<p>Datasheet for datasets</p>
-<p>Cas des données confidentielles</p>
+<div id="preparer-les-donnees-en-amont" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Préparer les données en amont</h3>
+<p>Lorsque la diffusion des données est une démarche inédite qui n’a pas été entreprise précédemment, obtenir les données en amont de l’évènement peut être long et fastidueux. Or, pour éviter tout problème, nous vous recommandons d’obtenir les données deux ou trois semaines en amont de l’évènement. Ce délai vous permettra de contrôler le contenu des données, de palier à d’éventuels problèmes d’anonymisation ou de protection des secrets légaux, de documenter au mieux les données et d’améliorer leur qualité. Attention aussi à bien prendre compte que, dans de nombreux cas, l’ouverture peut se heurter à des systèmes d’information qui n’ont pas été prévus pour l’extraction des données et peuvent demander un travail considérable pour les <em>database managers</em>.</p>
+<p>Plus vous anticipez, plus vous pourrez préparer au mieux les données et vous limiterez le temps passé par les participants à nettoyer les données. On dit souvent que 80% du temps de travail d’un data scientist est dédié au nettoyage de données. Pour améliorer la qualité des données, vous pourrez vous appuyer sur le travail réalisé par la Fondation Internet Nouvelle Génération (FING) avec le <a href="https://infolabs.io/sprint-qualite">sprint qualité</a> qui permet en 2H30 de faire un contrôle des principaux problèmes de qualité des données. Le <a href="https://github.com/Quartz/bad-data-guide/blob/master/README.md">Quartz Bad Data Guide</a> (en anglais) produit aussi une série de points de contrôle pour améliorer les données. Faire expertiser les données par un spécialiste en amont de l’évènement pourra aussi vous aider à détecter des problèmes de qualité. Enfin, l’outil <a href="http://dataproofer.org/">Dataproofer</a> exerce un certain nombre de contrôles automatiques sur les données vous permettant une analyse rapide.</p>
+<p>Tous les problèmes de qualité ne pourront éviter pas être corrigés avant l’évènement. Mais une documentation précise des données permettra de prévenir les réutilisateurs et de les aider à mieux comprendre les données. Nous vous recommandons de vous appuyons sur le modèle <a href="https://arxiv.org/pdf/1803.09010.pdf">Datasheet for Datasets</a> (traduit <a href="https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400">ici</a> en français) qui propose le concept de fiche technique pour les jeux de données. Le modèle propose que C-chaque jeu de données soit accompagné d’une fiche technique documentant sa création, sa composition, les utilisations prévues, sa maintenance et d’autres propriétés. <a href="https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400">Une liste de questions</a> permet de guider les producteurs de données dans les sujets à aborder dans la description des données. Ces questions peuvent aussi servir de guide d’entretien en vue de la documentation des données.</p>
+<p>Enfin, certaines données pourront nécessiter un travail important d’anonymisation. Il est important de noter qu’il ne suffit pas de retirer les noms d’une base de données pour qu’elle soit anonymisée : certaines champs dans un enregistrement peuvent permettre de réidentifier un individu. La Commission d’Accès aux Documents Administratifs (CADA) et la Commission Nationale Informatique et Liberté (CNIL) ont produit un <a href="https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf#page=13">guide pratique de la publication en ligne et de la réutilisation des données publiques</a> qui comporte un passage sur l’anonymisation des documents contenant des données à caractère personnel. L’Administrateur Général des Données a produit un <a href="https://github.com/SGMAP-AGD/anonymisation/wiki/Guide-de-l&#39;anonymisation">guide technique de l’anonymisation des données</a> qui présente une série d’outils et décrit les deux méthodes principales :</p>
+<ul>
+<li><p>La randomisation, qui altère la véracité des données afin d’affaiblir le lien entre les données et l’individu et de rendre les données suffisamment incertaines afin qu’elles ne puissent plus être rattachées à un individu en particulier.</p></li>
+<li><p>La généralisation, qui dilue les attributs des personnes concernées en modifiant leur échelle ou leur ordre de grandeur respectif (en passant d’une échelle communale à une échelle régionale, par exemple).</p></li>
+</ul>
+<p>Nous vous recommandons aussi <a href="https://docs.google.com/presentation/d/1YKFeMwqSxfKeb3HuujWq0zB-DfG19O_aXxNCpG7_fBU/edit#slide=id.p3">cette présentation</a> de Pierre-Alain Jachiet (Lab Santé - OpenChronic) qui décrit en détail les principales méthodes d’anonymisation de données.</p>
 </div>
 <div id="le-recrutement-des-participants-et-la-mobilisation-des-mentors" class="section level3">
 <h3><span class="header-section-number">3.2.2</span> Le recrutement des participants et la mobilisation des mentors</h3>
-<p>Communiquer tôt Demander des infos sur l’expérience data sprint et les compétences</p>
+<p>Communiquer tôt Demander des infos sur l’expérience data sprint et les compétences Relance des participants</p>
 </div>
 <div id="la-mise-en-place-des-espaces-de-discussion-et-de-documentation" class="section level3">
 <h3><span class="header-section-number">3.2.3</span> La mise en place des espaces de discussion et de documentation</h3>
