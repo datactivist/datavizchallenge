@@ -17,7 +17,9 @@ Fiche critères d'évaluation : https://docs.google.com/spreadsheets/d/1t_wpk0Ei
 ## La reprise de la documentation
 
 Contacter les participants 
+
 Combler les manques dans la documentation
+
 Raconter les projets de manière narrative
 
 ## Le sondage et le débriefing 
@@ -31,5 +33,9 @@ Faire une restitution publique : https://datafin.fr/enquete-sur-le-hackathon-dat
 ## L’accompagnement à donner
 
 Présenter les résultats du projet à des décideurs
+
+S'inspirer des idées pour réfléchir sur le cahier des charges de l'app défi 2
+
+
 Financer la suite 
 

@@ -13,8 +13,11 @@ description: "Le guide d’organisation d’un data sprint propose des conseils 
 # Introduction {-}
 
 A la suite du dataviz challenge organisé les 22 et 23 mars 2019, le guide d’organisation d’un data sprint doit : 
+
 * Permettre l’essaimage du format au sein du Ministère de l’Education nationale et de la Jeunesse et auprès de ses partenaires ainsi que dans les territoires
+
 * Rendre l’évènement réplicable
+
 * Restituer l’expérience du dataviz challenge et inciter d’autres acteurs à le reproduire. 
 
 Le guide est open source, il s'appuie sur le [travail réalisé par Datactivist pour le département de l'Ardèche](https://docs.google.com/document/d/1uDw4Maifjl_egJ95y-F0dkXEyu2MNfhc2GvNEmjhPq8/edit#heading=h.9ofnjz67swln) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) (Attribution - Partage dans les Mêmes Conditions 4.0 International). Le guide est publié avec la même licence qui permet la libre réutilisation tout en garantissant que le contenu restera ouvert. 

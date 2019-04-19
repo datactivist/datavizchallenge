@@ -1,11 +1,16 @@
 # Les points d'attention dans la préparation du data sprint {#preparation}
 
+## Planifier et répartir le travail
 
-Les tâches dans l'organisation sont de plusieurs niveaux. Pour faciliter l'organisation, mieux vaut se répartir la charge entre les différents acteurs en charge de l’organisation du sprint data : 
+L'organisation d'un sprint data prend du temps et demande de l'anticipation. Dans le cas du dataviz challenge, le travail a débuté en octobre 2018 pour un évènement fin mars 2019 avec l'organisation d'une journée contributive lors de laquelle les premières pistes de défi et de programme ont été débattues par des acteurs du ministère et des experts externes. 
+
+De manière générale, un délai de 3 mois avant l'évènement permet d'organiser un sprint data de manière confortable. En deça, certaines taches risquent d'être organisées dans la précipitation et la mobilisation interne sera difficile à assurer. 
+
+Les tâches dans l'organisation d'un sprint data sont de plusieurs niveaux. Pour faciliter l'organisation, mieux vaut se répartir la charge entre les différents acteurs en charge de l’organisation du sprint data. Voici un exemple de répartition qui devra être adapté selon les contextes organisationnels : 
 
 *le pilotage : certaines décisions devront être prises par la direction ou l’organe de pilotage sur la supervision du chef de projet
 
-* la communication : la mise en œuvre de certaines de ces tâches concernera essentiellement la direction de la communication
+* la communication : la mise en œuvre de certaines de ces tâches concernera essentiellement la direction ou l'équipe en charge de la communication
 
 * la logistique : ces tâches sont assurées principalement par le chef de projet et l’équipe présente lors de l’évènement
 
@@ -21,16 +26,44 @@ Pour utiliser le retroplanning pour votre propre évènement, rendez-vous à l'[
 knitr::include_graphics(rep("./img/retroplanning.gif"))
 ```
 
+Le retroplanning est organisé suivant cinq grandes sections dans laquelle figurent des groupes de taches, libre à vous ensuite de le décliner selon les besoins de votre projet :  
 
+* **Le pilotage** concerne le choix et l'implication des partenaires internes et externes, la planification des dates et des lieux du sprint data, la définition du budget, la formalisation de la stratégie et des indicateurs du succès (qu'attendons nous de ce sprint data ? comment mesurer le succès de l'évènement ?) et la stratégie de valorisation des projets
 
-### La logistique
-Repas
-Wifi
-Goodies
+* **La communication** regroupe des taches sur la stratégie de communication sur le web et les réseaux sociaux, la production de contenus relatifs à l'évènement, le recrutement et la relance des participants, l'impression de documents, l'achat de goodies…
+
+* **La logistique** s'intéresse à la préparation du matériel, la commande des repas, l'éventuel hébergement des participants et mentors, le transport, la préparation du livret du participant, la mise en place du lieu…
+
+* **L'animation** concerne des taches sur le briefing de toute l'équipe d'organisation et des partenaires impliqués, la répartition des rôles, la mise en place des outils en ligne de documentation…
+
+* **Le post-évènement** concerne la suite du sprint data avec le remerciement des participants, leur évaluation de l'évènement, le suivi des indicateurs de succès, la publication d'un compte-rendu ou d'un billet de synthèse, la collecte du code et de la documention des projets, le suivi des projets…
+
+En suivant ce retroplanning type dès le début de votre évènement, vous devriez pouvoir planifier et répartir au mieux la charge de travail. Il vous évitera aussi de négliger un point important de l'organisation de l'évènement. Toutefois, de notre expérience, certains points méritent une attention toute particulière. 
+		
+
+## La logistique
+
+L'organisation d'un sprint data demande un travail important de gestion logistique à répartir dans l'équipe projet pour éviter une surcharge.
+
+De notre expérience, voici quelques points d'attention à prendre en compte sur la partie logistique :
+
+* **Le wifi** : combien de sprints data se sont-ils heurtés à ce problème ? C'est un point technique essentiel, les équipes ne pourront pas travailler avec un wifi défaillant. La connexion réseau devra être bien dimensionnée avec obligatoirement un raccordement à la fibre, cela doit être un critère de choix du lieu. Prévoyez une connexion de 80Mo minimum pour une trentaine de participants. 
+
+* **Les repas** : pensez à prévoir des alternatives végétariennes complètes pour les participants. Nous vous recommandons d'intégrer les contre-indications alimentaires dans le formulaire d'inscription pour prévoir en amont. Il vous restera probablement des restes : évitez le gachis en prenant contact avec une association locale d'aide aux personnes démunies comme nous l'avons fait pour le Datviz Challenge. Enfin, si possible, pensez à la planète en sélectionnant un prestataire qui a engagé une démarche de réduction des matériaux jetables (en particulier le plastique) et pourra vous fournir de la vaisselle réutilisables.
+
+* **Prise en charge du handicap et des besoins particuliers** : pensez à intégrer une question  à ce sujet dans le formulaire d'inscription à ce sujet. Cela peut être particulièrement désagréable pour une personne concernée de devoir soliciter de l'assistance alors qu'elle peut être proposée en amont. Favorisez l'autonomie du plan grand nombre aussi en choisissant un lieu adapté. 
+
+* **Goodies** : il est bienvenu que tout le monde puisse repartir avec quelque chose en souvenir. Dans le cadre du dataviz challenge, chaque participant est reparti avec un tote bag aux couleurs du 110bis, une gourde réutilisable (pour limiter la consommation de gobelets), des lingettes (pour se rafraîchir après une courte nuit), le livret du participant, des stickers… Veillez à bien prévoir la commande de ces goodies en amont, les délais de fabrication et de livraison sont généralement de 2-3 semaines sauf à passer une commande en express (5 jours environ), plus couteuse et limitée en terme d'options.
+
+* **Espace détente** : avec le bruit des équipes qui travaillent, il peut être dur de se concentrer et de se relaxer. Pensez à mettre à disposition un espace de relaxation avec en permanence des boissons chaudes et, si possible, une restauration légère en cas de fringale (des fruits secs par exemple). Il est aussi recommandé, si le lieu le permet, de mettre à disposition une salle de réunion pour que les équipes puissent préparer les pitchs, le jury sélectionne les projets, les organisateurs se coordonnent…
+
+* **Préparation de la salle** : pensez à avoir des renforts la veille du jour J pour mettre en place l'espace. Prévoyez un espace suffisamment grand pour les présentations en plenière et les pictchs des projets, mettez en place des tables comprenant une place suffisante pour l'équipe (5 personnes pour le dataviz challenge) et un siège pour les mentors. Sur chaque table, prévoyez des prises éléctriques et du matériel de créativité (post-its, feutres, tableaux blancs…)
+
 
 
 ### La préparation des données
 Les obtenir le plus en amont possible
+
 Les faire expertiser par un spécialiste
 
 Datasheet for datasets
@@ -47,8 +80,11 @@ Demander des infos sur l'expérience data sprint et les compétences
 ### La mise en place des espaces de discussion et de documentation
 
 Présenter Discourse
-Digital Ocean
+
+Déploiement avec Digital Ocean
+
 Principales catégories du forum
+
 Le package Vitrine
 
 ### La préparation du programme
