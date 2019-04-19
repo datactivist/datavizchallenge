@@ -79,24 +79,25 @@ caractère personnel. L'Administrateur Général des Données a produit un [guid
 Nous vous recommandons aussi [cette présentation](https://docs.google.com/presentation/d/1YKFeMwqSxfKeb3HuujWq0zB-DfG19O_aXxNCpG7_fBU/edit#slide=id.p3) de Pierre-Alain Jachiet (Lab Santé - OpenChronic) qui décrit en détail les principales méthodes d'anonymisation de données. 
 
 
-### Le recrutement des participants et la mobilisation des mentors
+### Cibler les participants
 
-Communiquer tôt
-Demander des infos sur l'expérience data sprint et les compétences 
-Relance des participants
+Pour attirer les meilleurs participants, un sprint data ne peut pas se contenter d'une communication descendante. Il vaut mieux aller chercher les compétences en ciblant des personnes qui ont travaillé sur des thématiques proches ou ont réalisé des projets correspondant à l'esprit des défis de l'évènement. Dans la même logique, nous vous recommandons de prendre contact avec des enseignants dans des formations ciblées autour des thématiques de votre évènement (data science, design, communication, politiques publiques…) Pour un étudiant, la participation à un sprint data se révèle une expérience très enrichissante à tout point de vue : rencontre avec des professionnels, mise en pratique des compétences apprises en formation, travail en équipe… De notre expérience, les étudiants alliés avec des professionnels établis peuvent apporter une énergie considérable à un sprint data. La mobilisation des enseignants peut permettre d'inscrire l'évènement dans le cursus ou, au moins, d'obtenir une dispense pour y participer. 
+
+L'annonce de l'évènement doit être anticipée sans trop se positionner en amont du sprint data, quand les agendas des participants sont trop incertains. Nous recommandons de commencer à communiquer deux mois avant l'évènement pour recruter les participants. Dans le formulaire d'inscription, pensez à intégrer plusieurs questions relatives à l'expérience en matière de sprint data/hackathons, la motivation à participer à l'évènement et à demander des liens vers des comptes sur des réseaux sociaux professionnels (LinkedIn, Github, Behance en design…) Ces informations seront très utiles si vous dépassez la capacité de la salle et que vous devez sélectionner les participants. Enfin, d'expérience, nous vous recommandons de demander systématiquement le numéro de teléphone et d'échanger en direct avec les participants en amont de l'évènement pour garantir leur participation. En effet, sur un évènement gratuit, le taux de non-participation de personnes inscrites peut atteindre jusqu'à 50%. Plusieurs mails de rappel à intervalles réguliers permettront aussi de réduire ce taux. 
 
 ### La mise en place des espaces de discussion et de documentation
 
-Présenter Discourse
+La documentation des projets est essentielle pour s'assurer que les projets réalisés soient bien exploitables par la suite. Pour se faire, vous pouvez vous appuyer sur l'outil de forum libre [Discourse](http://www.discourse.org) qui, dans une interface très conviviale, permet d'organiser la conversation et de créer un sujet par équipe où elle pourra déposer sa documentation. Il est essentiel de s'assurer pendant l'évènement que les équipes documentent bien leurs projets : faites des points régulièrement avec les participants sur la documentation car, dans l'euphorie de l'évènement, cela peut être négligé. Pour déployer un tel forum, Discourse propose un [guide d'installation](https://github.com/discourse/discourse/blob/master/docs/INSTALL.md) avec Docker en 30 minutes et [Digital Ocean](https://marketplace.digitalocean.com/apps/discourse) permet, à partir de 5$ par mois, de créer une instance dans le cloud si vous n'avez pas de serveur à disposition. 
 
-Déploiement avec Digital Ocean
+L'équipe d'[Open Data Ch](http://opendata.ch) en Suisse a aussi créé [Dribdat](https://github.com/dataletsch/dribdat), un outil libre de documentation des projets spécifiquement à destination des hackathons et sprint data. L'outil permet aussi d'avoir un excellent rendu ([exemple](https://hack.opendata.ch/project/163)) dans la documentation des projets. 
 
-Principales catégories du forum
+### Prévoir un conducteur milimétré
 
-Le package Vitrine
+A destination de toutes les parties prenantes impliquées dans l'organisation de l'évènement, il faudra communiquer le programme ([exemple](https://docs.google.com/document/d/1FiGN7nkaOCT6pmTipnc4yEqvUxqS539WODajqxjrP1Y/edit?usp=sharing) pour le Dataviz Challenge) détaillant les grandes étapes dans la durée de l'évènement.  
 
-### La préparation du programme
+Pour assurer une coordination optimale et éviter tout dérapage, nous mettons à disposition un [modèle de conducteur](https://docs.google.com/spreadsheets/d/1x77Np6CK0f00M07VfUsjbQBRpW8SpClGe1s5jf6VYFw/edit#gid=1858367361) qui détaille de manière précise pour chaque temps de l'évènement le responsable, le lieu et le matériel nécessaire. Ce document sert de base à un brefing la veille de l'évènement avec l'ensemble des organisateurs où il est passé en revue et mis en jour. Objectif : mettre tout le monde en ordre de marche et savoir précisément qui fera quoi pour éviter au maximum l'improvisation.   
 
-Programme public 
+```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Le modèle de [conducteur issu du dataviz challenge](https://docs.google.com/spreadsheets/d/1x77Np6CK0f00M07VfUsjbQBRpW8SpClGe1s5jf6VYFw/edit#gid=1858367361) à copier et à adapter.', }
+knitr::include_graphics(rep("./img/conducteur.png"))
+```
 
-Conducteur : https://docs.google.com/spreadsheets/d/1x77Np6CK0f00M07VfUsjbQBRpW8SpClGe1s5jf6VYFw/edit#gid=1858367361
