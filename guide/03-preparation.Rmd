@@ -59,8 +59,6 @@ De notre expérience, voici quelques points d'attention à prendre en compte sur
 
 * **Préparation de la salle** : pensez à avoir des renforts la veille du jour J pour mettre en place l'espace. Prévoyez un espace suffisamment grand pour les présentations en plenière et les pictchs des projets, mettez en place des tables comprenant une place suffisante pour l'équipe (5 personnes pour le dataviz challenge) et un siège pour les mentors. Sur chaque table, prévoyez des prises éléctriques et du matériel de créativité (post-its, feutres, tableaux blancs…)
 
-
-
 ### Préparer les données en amont
 
 Lorsque la diffusion des données est une démarche inédite qui n'a pas été entreprise précédemment, obtenir les données en amont de l'évènement peut être long et fastidueux. Or, pour éviter tout problème, nous vous recommandons d'obtenir les données deux ou trois semaines en amont de l'évènement. Ce délai vous permettra de contrôler le contenu des données, de palier à d'éventuels problèmes d'anonymisation ou de protection des secrets légaux, de documenter au mieux les données et d'améliorer leur qualité. Attention aussi à bien prendre compte que, dans de nombreux cas, l'ouverture peut se heurter à des systèmes d'information qui n'ont pas été prévus pour l'extraction des données et peuvent demander un travail considérable pour les _database managers_. 
@@ -91,7 +89,9 @@ La documentation des projets est essentielle pour s'assurer que les projets réa
 
 L'équipe d'[Open Data Ch](http://opendata.ch) en Suisse a aussi créé [Dribdat](https://github.com/dataletsch/dribdat), un outil libre de documentation des projets spécifiquement à destination des hackathons et sprint data. L'outil permet aussi d'avoir un excellent rendu ([exemple](https://hack.opendata.ch/project/163)) dans la documentation des projets. 
 
-## Prévoir un conducteur milimétré
+L'Atelier des Chercheurs propose aussi l'[OpenDoc](http://www.lopendoc.org/), une plate-forme en ligne ([documentation](https://latelier-des-chercheurs.fr/outils/lopendoc) et [code](https://github.com/l-atelier-des-chercheurs/lopendoc)) dédiée à la documentation d’activités de tout type, de manière chronologique et collaborative. 
+
+## Prévoir un conducteur milimètré
 
 A destination de toutes les parties prenantes impliquées dans l'organisation de l'évènement, il faudra communiquer le programme ([exemple](https://docs.google.com/document/d/1FiGN7nkaOCT6pmTipnc4yEqvUxqS539WODajqxjrP1Y/edit?usp=sharing) pour le Dataviz Challenge) détaillant les grandes étapes dans la durée de l'évènement.  
 

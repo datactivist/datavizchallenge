@@ -1,9 +1,21 @@
 # L’animation du data sprint {#animation}
 
-Matrice auto-évaluation : https://docs.google.com/presentation/d/1hTuVVXKd_NEwg26LZPuLaTX2KqDlz0S4BM824jacZak/edit#slide=id.p
+Pendant le café avant le lancement du dataviz challenge, nous avons distribué des **fiches d'auto-évaluation** qui permettent aux participants de mettre en avant leurs compétences. Organisées autour de 5 compétences essentielles  (narrateur, analyste, technicien de données, explorateur, designer), la matrice sert avant tout à faire passer le message que la réalisation d'un projet dans le cadre d'un sprint data est un sport d'équipe. En effet, une équipe qui concentre uniquement une de ces compétences aura peu de chances de produire de bons résultats. C'est seulement dans l'intelligence collective que les projets parviennent à raconter une histoire et à montrer des résultats. Les matrices ont servi dans la constitution des équipes pour re-répartir les compétences entre les groupes.
 
-Ice breaker
+```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Modèle de [matrice auto-évaluation](https://docs.google.com/presentation/d/1hTuVVXKd_NEwg26LZPuLaTX2KqDlz0S4BM824jacZak/edit#slide=id.p), reliez les points pour faire un diagramme en étoile.', }
+knitr::include_graphics(rep("./img/matrice.png"))
+```
 
+Au démarrage du Dataviz Challenge, nous avons fait un "brise-glace", une activité pour éviter le moment de flottement au début de tout évènement entre des personnes qui ne se connaissent pas.  L'activité que nous avons choisi est le [débat mouvant](http://ebook.coop-tic.eu/francais/wakka.php?wiki=DebatMouvant) qui consiste à répondre à des questions défines à l'avance en se plaçant d’un côté ou de l’autre d’une ligne marquée au sol. 
+
+Exemple : qui est venu en train ? → ceux qui le sont vont à droite et les autres à gauche 
+Cela a permis de présenter les animateurs (110bis + Datactivist), les mentors et d'intégrer des questions pour que les participants puissent repérer les profils présents (designer, développeurs, personnels Éducation nationale…)
+
+```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Le débat mouvant lors du Dataviz Challenge.', }
+knitr::include_graphics(rep("./img/debat.png"))
+```
+
+Nous sommes ensuite entrés dans le vif du sujet en  présentant le contexte et les défis du Dataviz Challenge avant de créer les groupes projet. 
 
 ## Les trois temps créatifs : inspiration, idéation, prototypage
 
@@ -13,32 +25,55 @@ Même si chaque événement a ses particularités, on retrouvera dans le DataViz
 knitr::include_graphics(rep("./img/ideo.png"))
 ```
 
-##Inspiration : expliciter le contexte et les défis
+### Inspiration : expliciter le contexte et les défis
 
-Cette première phase vise à définir le problème et consiste à expliciter les défis pour s’assurer qu’ils soient bien compris par les participants. Le public doit pouvoir reformuler les défis proposés et développer une compréhension partagée des enjeux.A quels problèmes essayez-vous de répondre avec ce hackathon ? Pourquoi l’organisez vous ? Qu’attendez-vous comme projet concret des participants ? Quels défis sont proposés aux participants ? 
+Cette première phase vise à définir le problème et consiste à expliciter les défis pour s’assurer qu’ils soient bien compris par les participants. Le public doit pouvoir reformuler les défis proposés et développer une compréhension partagée des enjeux.
+
+A quels problèmes essayez-vous de répondre avec ce hackathon ? Pourquoi l’organisez vous ? Qu’attendez-vous comme projet concret des participants ? Quels défis sont proposés aux participants ? 
 
 Les défis en amont du hackathon sur le site de l’évènement et aussi pendant le hackathon. Il est important de prendre ici une posture d’empathie avec les participants pour s’assurer qu’ils comprennent et adhèrent aux défis qui sont proposés. C’est une phase de divergence dans laquelle le public doit pouvoir reformuler les défis proposés et dans laquelle se développe une compréhension partagée des enjeux. Même si les défis sont déjà formulés par écrit, il est important de prendre du temps pour que les participants se l'approprient. 
 
 
-**Idéation**
+### Idéation : générer de nouvelles idées autour des défis
 La seconde phase consiste à générer une multitude d’idées autour du problème défini dans la phase précédente. Les participants sont incités à explorer de nouvelles solutions aux défis et, après un vote ou une phase de délibération, sélectionner les propositions pour constituer un nombre limité d’équipes.
 
-Quelles solutions peuvent répondre aux défis ? Comment les participants envisagent de répondre à ces défis ? Cette phase de créativité se déroule en deux temps : d’abord les participant-e-s doivent diverger en livrant un maximum d’idées. Aucune idée ne doit être écartée, tout est bon à prendre et chacun doit se sentir libre de faire part de ces propositions. Des post-its suffiront à noter toutes les idées. 
+Quelles solutions peuvent répondre aux défis ? Comment les participants envisagent de répondre à ces défis ? Cette phase de créativité se déroule en deux temps : d’abord les participants doivent diverger en livrant un maximum d’idées. Aucune idée ne doit être écartée, tout est bon à prendre et chacun doit se sentir libre de faire part de ces propositions. Des post-its suffiront à noter toutes les idées. 
 
-Il faut ensuite entrer dans une phase de convergence pour aboutir à des équipes qui vont développer ensemble une solution. Pour cela, on peut avoir recours à une étape de clustering pour rassembler les idées similaires. Un bon moyen de former rapidement des équipes peut être l’utilisation de gomettes : lors du dataviz challenge, nous avons distribué une gomette à chaque participant-e. Chacun positionnait ses deux gomettes sur les deux idées qui lui plaisaient le plus. A la suite, nous avons utilisé deux grandes feuilles pour que chacun s’inscrive dans les groupes projet qui avaient recueilli le plus de voix. 
+Il faut ensuite entrer dans une phase de convergence pour aboutir à des équipes qui vont développer ensemble une solution. Pour cela, on peut avoir recours à une étape de clustering pour rassembler les idées similaires. Un bon moyen de former rapidement des équipes peut être l’utilisation de gomettes : lors du dataviz challenge, nous avons distribué une gomette à chaque participant. Chacun positionnait sa gomette gomettes sur le projet qui lui plaisait le plus. Dès qu'un groupe comportait 5 participants, il était complet et les participants devaient s'inscrire dans un autre groupe.
 
-**Implémentation**
+### Implémentation : développer les projets
+
 Enfin, la troisième phase occupe la majeure partie de l’événement puisque les participants prototypent, voire développent, dans un temps limité, les visualisations de
 données ou services qui tentent de répondre aux défis.
 
-L’événement se terminera par l’attribution d’un prix à valeur symbolique, pour valoriser les projets jugés les plus aboutis selon un jury constitué d’experts de l’analyse de données ou de la thématique traitée. Il n’y a pour autant pas de gagnants ni de perdants, cette sélection sert surtout à donner de la visibilité aux projets les plus emblématiques issus du data sprint.
+L’événement se terminera par l’attribution d’un prix à valeur symbolique, pour valoriser les projets jugés les plus aboutis selon un jury constitué d’experts de l’analyse de données ou de la thématique traitée. Il n’y a pour autant pas de gagnants ni de perdants, cette sélection sert surtout à donner de la visibilité aux projets les plus emblématiques issus du sprint data.
 
-## Le "off" du sprint data 
+## Le "off" du sprint data
+
+Un sprint data peut être éprouvant pour les participants. Même si le temps dédié à un sprint data est par essence limité, avoir des temps de pause et d'inspiration est essentiel pour lever le nez des données et prendre de la perspective sur les projets. 
 
 ### Les ateliers de formation
 
-### Les temps de pause et d’inspiration
+Lors du dataviz challenge, les participants pouvaient assister (dans une salle à part pour ne pas déranger le travail des groupes) à des sessions de formation de 30 minutes sur des sujets liés à la visualisation de données : 
 
-### La documentation des projets
+* le premier atelier [[support](https://datactivist.coop/datavizchallenge/1/#1)]  synthétise certaines bonnes pratiques et exemples  de visualisation de données autour de trois principes pour une dataviz réussie : rigueur, lisibilité, éloquence ; 
 
-### Quelques questions logistiques
+* le deuxième atelier [[support](https://datactivist.coop/datavizchallenge/2/#1)] est une introduction au data pipeline, une méthodologie générique développée par [School of Data](https://schoolofdata.org/methodology/) de réutilisation de données qui décrit étape par étape les différentes épreuves dans la réalisation d'un projet data ; 
+
+* le troisième atelier présentait des ressources pour choisir un format de data visualisation : le [Dataviz Project](https://datavizproject.com) qui catalogue les formats de visualisation en fonction des usages, un article très complet de [Lisa Charlotte Rost](https://lisacharlotterost.github.io/datavistools-revisited) qui présente neuf outils en reproduisant à chaque fois la même visualisation et enfin le [Chartmaker Directory](http://chartmaker.visualisingdata.com/) qui synthétise avec de nombreux exemples les formats de visualisation proposé par une vingtaine d'outils. 
+
+Les participants étaient libres de participer à cet atelier. En général, un membre de chaque groupe y assistait et partageait ses conclusions au reste du groupe.
+
+Pour préparer les pitchs, un "[pitch des pitchs](https://docs.google.com/presentation/d/107iDAXngenlKleBSwkmipXEgE9JS5ClJpMygWRG1xNE/edit#slide=id.p)", réalisé lors d'un hackathon en Ardèche, a été présenté sous la forme d'un pitch avec des conseils méthodologiques et une structure type. qui se révèle particulièrement utile pour les personnes qui n'ont pas d'expérience avec ce format de prise de parole. 
+
+### Les temps d’inspiration
+
+Pendant les temps réservés au prototypage des projets, nous avons aussi proposé des temps d'inspiration pour emmener les participants vers de nouvelles idées sur les données et leurs visualisation. 
+
+Lors de la première journée, les participants ont pu assister à trois keynote allant de 15 à 30 minutes : 
+
+* le designer Louis Eveillard a présenté en matière de visualisation de données réalisé par l'[Atelier des Chercheurs](https://latelier-des-chercheurs.fr/outils/lopendoc), en particulier le projet de cartographie sensible "[Millefeuille](http://quentinlefevre.com/workshop-de-cartographie-sensible-ile-de-nantes-stereolux/)" réalisé sur l'île de Nantes ; 
+
+* l'artiste Albertine Meunier a présenté son travail sur les données en particulier le projet [My Google Search History](https://www.albertinemeunier.net/my-google-search-history), le [Casino Las Datas](https://www.albertinemeunier.net/casino-las-datas) et nous avons même chanté un des morceaux de son EP [French Data Touch](http://www.albertinemeunier.net/french-data-touch)
+
+* le géographe [Jacques Lévy](https://fr.wikipedia.org/wiki/Jacques_L%C3%A9vy_(g%C3%A9ographe)),  professeur à l'École polytechnique fédérale de Lausanne (Suisse) et lauréat du prix Vautrin-Lud en 2018, a présenté sa vision de la cartographie et quelques unes de ses réalisations les plus emblématiques. 
