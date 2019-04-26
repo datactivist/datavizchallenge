@@ -1,6 +1,6 @@
 # L’animation du data sprint {#animation}
 
-Pendant le café avant le lancement du dataviz challenge, nous avons distribué des **fiches d'auto-évaluation** qui permettent aux participants de mettre en avant leurs compétences. Organisées autour de 5 profils essentiels  (narrateur, analyste, technicien de données, explorateur, designer), la matrice sert avant tout à faire passer le message que la réalisation d'un projet dans le cadre d'un sprint data est un sport d'équipe. En effet, une équipe qui concentre uniquement un de ces profils aura peu de chances de produire de bons résultats. C'est seulement dans l'intelligence collective que les projets parviennent à raconter une histoire et à montrer des résultats. Les matrices ont servi dans la constitution des équipes pour re-répartir les profils entre les groupes.
+Pendant le café avant le lancement du Dataviz Challenge, nous avons distribué des **fiches d'auto-évaluation** qui permettent aux participants de mettre en avant leurs compétences. Organisées autour de 5 profils essentiels  (narrateur, analyste, technicien de données, explorateur, designer), la matrice sert avant tout à faire passer le message que la réalisation d'un projet dans le cadre d'un sprint data est un sport d'équipe. En effet, une équipe qui concentre uniquement un de ces profils aura peu de chances de produire de bons résultats. C'est seulement dans l'intelligence collective que les projets parviennent à raconter une histoire et à montrer des résultats. Les matrices ont servi dans la constitution des équipes pour re-répartir les profils entre les groupes.
 
 ```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Modèle de [matrice auto-évaluation](https://docs.google.com/presentation/d/1hTuVVXKd_NEwg26LZPuLaTX2KqDlz0S4BM824jacZak/edit#slide=id.p), reliez les points pour faire un diagramme en étoile.', }
 knitr::include_graphics(rep("./img/matrice.png"))
@@ -19,7 +19,7 @@ Nous sommes ensuite entrés dans le vif du sujet en  présentant le contexte et 
 
 ## Les trois temps créatifs : inspiration, idéation, prototypage
 
-Même si chaque événement a ses particularités, on retrouvera dans le DataViz Challenge les 3 temps du mouvement créatif.
+Même si chaque événement a ses particularités, on retrouve dans un sprint data les trois temps du mouvement créatif tels que l'a défini Tim Brown d'IDEO dans le processus créatif du [design thinking](https://fr.wikipedia.org/wiki/Design_thinking).
 
 ```{r echo=FALSE, out.width='70%', fig.align='center', fig.cap='Les 3 temps du mouvement créatif (source : Danvang)', }
 knitr::include_graphics(rep("./img/ideo.png"))
@@ -75,7 +75,7 @@ Lors du dataviz challenge, les participants pouvaient assister dans une salle à
 
 Les participants étaient libres de participer à cet atelier. En général, un membre de chaque groupe y assistait et partageait ses conclusions au reste du groupe.
 
-Pour préparer les pitchs, un "[pitch des pitchs](https://docs.google.com/presentation/d/107iDAXngenlKleBSwkmipXEgE9JS5ClJpMygWRG1xNE/edit#slide=id.p)", réalisé lors d'un hackathon en Ardèche, a été présenté sous la forme d'un pitch avec des conseils méthodologiques et une structure type. qui se révèle particulièrement utile pour les personnes qui n'ont pas d'expérience avec ce format de prise de parole. 
+Pour préparer les pitchs, nous avons présenté en plenière un "[pitch des pitchs](https://docs.google.com/presentation/d/107iDAXngenlKleBSwkmipXEgE9JS5ClJpMygWRG1xNE/edit#slide=id.p)" réalisé lors d'un hackathon en Ardèche. Il contient des conseils méthodologiques et une structure type qui se révèlent particulièrement utile pour les personnes qui n'ont pas d'expérience avec ce format de prise de parole. 
 
 ### Les temps d’inspiration
 
