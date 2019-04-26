@@ -53,12 +53,12 @@ S'appuyant sur QGIS pour explorer les données, l'équipe s'est focalisée sur l
 
 L'équipe avait aussi pour projet de développer une aide à la modification des cartes scolaires, non réalisée faute de temps.
 
-```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Exemple de carte prédisantle  niveau de mixité sociale'}
+```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Exemple de carte prédisant le niveau de mixité sociale'}
 knitr::include_graphics(rep("./img/Diagramme_Publics_Prives.png"))
 ```
 
 **Méthode**
-Le modèle choisi est un [régresseur à base de forêts aléatoires](https://fr.wikipedia.org/wiki/For%C3%AAt_d%27arbres_d%C3%A9cisionnels). La variable à prédire est le taux d'élèves en PCS très défavorisé et les variables d'entrée sont le nombre d'élèves, secteur/privé, le nombre d'options disponibles et les options d'intérêt.
+Le modèle choisi est un [régresseur à base de forêts aléatoires](https://fr.wikipedia.org/wiki/For%C3%AAt_d%27arbres_d%C3%A9cisionnels). La variable à prédire est le taux d'élèves en PCS très défavorisée et les variables d'entrée sont le nombre d'élèves, le secteur (public ou privé), le nombre d'options disponibles et les options d'intérêt.
 
 ```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Représentation synthétique du modèle', }
 knitr::include_graphics(rep("./img/model-diag.png"))
@@ -104,7 +104,7 @@ knitr::include_graphics(rep("./img/iped.png"))
 knitr::include_graphics(rep("./img/iped2.png"))
 ```
 
-**Méthode** : Le projet a abouti à la création d’un indicateur IPED . Indice annuel d’évaluation de l’impact mobilité des enseignants de base 100, il se compose de l’addition des trajets à vol d’oiseau de chacun.e des enseignant.e.s.
+**Méthode** : Le projet a abouti à la création d’un indicateur IPED. Indice annuel d’évaluation de l’impact mobilité des enseignants de base 100, il se compose de l’addition des trajets à vol d’oiseau de chacun.e des enseignant.e.s.
 
 Selon le lieu de résidence de l’enseignant, les matières et options enseignées et la typologie de l’établissement, un algorithme recommande un scénario d’optimisation des trajets.
 
