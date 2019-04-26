@@ -2,7 +2,7 @@
 
 ## Au fait, c'est quoi un sprint data ? 
 
-Un sprint data, hackathon ou encore DataViz Challenge désigne tout événement de durée variable pendant lequel des personnes se rassemblent pour résoudre des problèmes, classiquement en développant des outils informatiques mais pas nécessairement. C'est un format de co-création, associant sur un temps court (deux jours et une nuit dans le cas du Dataviz Challenge) des profils et des compétences diverses au sein d'équipes projet, dans une ambiance de travail conviviale, sous le signe de l'intelligence collective, du partage de compétences et de connaissances. 
+Un sprint data, hackathon ou encore Dataviz Challenge désigne tout événement de durée variable pendant lequel des personnes se rassemblent pour résoudre des problèmes, classiquement en développant des outils informatiques mais pas nécessairement. Particularité des sprints data : des données sont mises à disposition et elles constituent le matériau essentiel du travail des participants.  C'est un format de co-création, associant sur un temps court (deux jours et une nuit dans le cas du Dataviz Challenge) des profils et des compétences diverses au sein d'équipes projet, dans une ambiance de travail conviviale, sous le signe de l'intelligence collective, du partage de compétences et de connaissances. 
 
 Un sprint data combine 3 ingrédients essentiels : 
 
@@ -28,7 +28,7 @@ Depuis le premier concours de réutilisation de données ouvertes en France à R
 
 Cette prolifération de hackathons ou data sprint s’est accompagnée de critiques grandissantes à l’égard du modèle. Bien que les participants à un hackathon prennent sur leur temps personnel, généralement le weekend, certains organisateurs n’ont pas hésité à soumettre les participants à une forte pression ou à des attentes qui ont pu dégrader l’expérience. Aussi, la majorité des participants à un hackathon ne sont pas rétribués, ce qui a été dénoncé comme une forme de travail déguisé en évènement décontracté et informel. Des organisateurs ont, par ailleurs, beaucoup valorisé le *workaholism* (dépendance au travail jusqu’à l’épuisement), en encourageant les participants à travailler non stop, week-end et nuits comprises. En réaction, le concept du “[hackacon](http://www.hackacon.fr/)” parodie le hackathon en développant des projets inutiles de manière ludique pendant un weekend (voir [reportage d’Arte](http://tracks.arte.tv/fr/hackacon)). 
 
-Un hackathon réussi se doit donc d’être bien préparé, convivial et pensé comme une expérience enrichissante pour les participants.
+Un hackathon ou un sprint data réussi se doit donc d’être bien préparé, convivial et pensé comme une expérience enrichissante pour les participants.
 
 ## Les facteurs clés de succès
 
