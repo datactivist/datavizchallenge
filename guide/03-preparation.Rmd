@@ -2,7 +2,7 @@
 
 ## Planifier et répartir le travail
 
-L'organisation d'un sprint data prend du temps et demande de l'anticipation. Dans le cas du dataviz challenge, le travail a débuté en octobre 2018 pour un évènement fin mars 2019 avec l'organisation d'une journée contributive lors de laquelle les premières pistes de défi et de programme ont été débattues par des acteurs du ministère et des experts externes. 
+L'organisation d'un sprint data prend du temps et demande de l'anticipation. Dans le cas du Dataviz Challenge, le travail a débuté en octobre 2018 pour un évènement fin mars 2019 avec l'organisation d'une journée contributive lors de laquelle les premières pistes de défi et de programme ont été débattues par des acteurs du ministère et des experts externes. 
 
 De manière générale, un délai de 3 mois avant l'évènement permet d'organiser un sprint data de manière confortable. En deça, certaines taches risquent d'être mises en place dans la précipitation et la mobilisation interne sera difficile à assurer. 
 
@@ -22,7 +22,7 @@ Pour faciliter l'organisation d'un sprint data, nous mettons à disposition un m
 
 Pour utiliser le retroplanning pour votre propre évènement, rendez-vous à l'[adresse suivante](https://docs.google.com/spreadsheets/d/13-deckO7z53tQu3dst0gQCh54HAmwPnMDfGiCLNax8M/edit?usp=sharing) et créez une copie du document.  
 
-```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Le modèle de [retroplanning issu du dataviz challenge](https://docs.google.com/spreadsheets/d/13-deckO7z53tQu3dst0gQCh54HAmwPnMDfGiCLNax8M/edit?usp=sharing), les échéances ici reprennent la présentation du dataviz challenge.', }
+```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Le modèle de [retroplanning issu du Dataviz Challenge](https://docs.google.com/spreadsheets/d/13-deckO7z53tQu3dst0gQCh54HAmwPnMDfGiCLNax8M/edit?usp=sharing), les échéances ici reprennent la présentation du Dataviz Challenge.', }
 knitr::include_graphics(rep("./img/retroplanning.gif"))
 ```
 
@@ -53,11 +53,11 @@ De notre expérience, voici quelques points d'attention à prendre en compte :
 
 * **Prise en charge du handicap et des besoins particuliers** : pensez à intégrer une question à ce sujet dans le formulaire d'inscription pour éviter aux personnes concernées de devoir soliciter de l'assistance alors qu'elle peut être proposée en amont. Favorisez l'autonomie du plan grand nombre en choisissant aussi un lieu adapté. 
 
-* **Goodies** : il est bienvenu que tout le monde puisse repartir avec quelque chose en souvenir. Dans le cadre du dataviz challenge, chaque participant est reparti avec un tote bag aux couleurs du 110bis, une gourde réutilisable (pour limiter la consommation de gobelets), des lingettes (pour se rafraîchir après une courte nuit), le livret du participant, des stickers… Veillez à bien prévoir la commande de ces goodies en amont : les délais de fabrication et de livraison sont généralement de 2 à 3 semaines, sauf à passer une commande en express (5 jours environ), plus coûteuse et limitée en terme d'options.
+* **Goodies** : il est bienvenu que tout le monde puisse repartir avec quelque chose en souvenir. Dans le cadre du Dataviz Challenge, chaque participant est reparti avec un tote bag aux couleurs du 110bis, une gourde réutilisable (pour limiter la consommation de gobelets), des lingettes (pour se rafraîchir après une courte nuit), le livret du participant, des stickers… Veillez à bien prévoir la commande de ces goodies en amont : les délais de fabrication et de livraison sont généralement de 2 à 3 semaines, sauf à passer une commande en express (5 jours environ), plus coûteuse et limitée en terme d'options.
 
 * **Espace détente** : avec le bruit des équipes qui travaillent, il peut être dur de se concentrer et de se détendre. Pensez à mettre à disposition un espace de relaxation avec en permanence des boissons chaudes et, si possible, une restauration légère en cas de fringale (des fruits secs par exemple). Il est aussi recommandé, si le lieu le permet, de mettre à disposition une salle de réunion pour permettre aux équipes de préparer les pitchs, au jury de se réunir, aux organisateurs de se coordonner…
 
-* **Préparation de la salle** : pensez à avoir des renforts la veille du jour J pour mettre en place l'espace. Prévoyez un espace suffisamment grand pour les présentations en plénière et les pitchs des projets, mettez en place des tables dimensionnées à la taille des équipes (5 personnes pour le dataviz challenge) et un siège pour les mentors. Pour chaque table, prévoyez des prises éléctriques et du matériel de créativité (post-its, feutres, tableaux blancs…)
+* **Préparation de la salle** : pensez à avoir des renforts la veille du jour J pour mettre en place l'espace. Prévoyez un espace suffisamment grand pour les présentations en plénière et les pitchs des projets, mettez en place des tables dimensionnées à la taille des équipes (5 personnes pour le Dataviz Challenge) et un siège pour les mentors. Pour chaque table, prévoyez des prises éléctriques et du matériel de créativité (post-its, feutres, tableaux blancs…)
 
 ### Préparer les données en amont
 
