@@ -31,7 +31,7 @@ Cette première phase vise à définir le problème et expliciter les défis pou
 
 A quels problèmes essayez-vous de répondre avec ce hackathon ? Pourquoi l’organisez vous ? Qu’attendez-vous comme projet concret des participants ? Quels défis leurs sont proposés ? 
 
-Les défis en amont du hackathon sur le site de l’évènement et aussi pendant le hackathon. Il est important de prendre ici une posture d’empathie avec les participants pour s’assurer qu’ils comprennent et adhèrent aux défis qui sont proposés. C’est une phase de réappropriation dans laquelle le public doit pouvoir reformuler les défis proposés et où se développe une compréhension partagée des enjeux.
+Il est important de prendre ici une posture d’empathie avec les participants pour s’assurer qu’ils comprennent et adhèrent aux défis qui sont proposés. C’est une phase de réappropriation dans laquelle le public doit pouvoir reformuler les défis proposés et où se développe une compréhension partagée des enjeux.
 
 
 ### Idéation : formuler de nouvelles idées autour des défis
