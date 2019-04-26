@@ -4,7 +4,7 @@ Le dataviz challenge s'est inscrit dans le cadre de la mission relative aux poli
 
 Il part du constat que la concentration géographique des inégalités sociales et ses effets sur l’échec scolaire est identifiée depuis de nombreuses années en France : elle est un des fondements historiques des politiques d’éducation prioritaire. Le ministère doit procéder à la révision de la carte de la géographie prioritaire et , plus globalement, souhaite mieux prendre en compte l’ensemble des enjeux territoriaux qui contribuent à la réussite de tous les élèves.
 
-Dans le cadre de cette mission, le [110 bis](https://www.education.gouv.fr/110bislab/cid130754/presentation-du-110-bis-lab-d-innovation-de-l-education-nationale.html), laboratoire d’innovation de l’Education nationale, a expérimenté du vendredi 22 mars 9h au samedi 23 mars 19h un nouveau format d’exploitation des données visant à co-construire des outils, une méthodologie et des pratiques pour améliorer les politiques publiques éducatives.
+Dans le cadre de cette mission, le [110 bis](https://www.education.gouv.fr/110bislab/cid130754/presentation-du-110-bis-lab-d-innovation-de-l-education-nationale.html), lab d’innovation de l’Education nationale, a expérimenté du vendredi 22 mars 9h au samedi 23 mars 19h un nouveau format d’exploitation des données visant à co-construire des outils, une méthodologie et des pratiques pour améliorer les politiques publiques éducatives.
 
 L'évènement s'adressait à un large public : développeurs, enseignants, data scientists, designers, chercheurs, professionnels de l’éducation, décideurs public, étudiants... Et quiconque souhaitant apporter sa contribution sur le sujet des politiques éducatives territoriales et s'immerger dans une équipe interdisciplinaire le temps des deux jours du dataviz challenge.
 
@@ -79,7 +79,7 @@ knitr::include_graphics(rep("./img/model-vars.png"))
 
 Comment prévoir les impacts de la fermeture ou de l’ouverture d’un établissement sur ces trois paramètres ?
 
-**Produit final**: En fonction du nombre de classes de l’établissement, le prototype anticipe la réaffectation des élèves dans les établissements environnants, ses impacts sur les trajets au travers une carte décrivant les impacts de la fermeture d’un établissement sélectionné. Les caractéristiques sociales de chaque établissement sont visualisées dans une rosace qui se déplie par niveau.
+**Produit final**: En fonction du nombre de classes de l’établissement, le prototype anticipe la réaffectation des élèves dans les établissements environnants, ses impacts sur les trajets au travers d'une carte décrivant les impacts de la fermeture d’un établissement sélectionné. Les caractéristiques sociales de chaque établissement sont visualisées dans une rosace qui se déplie par niveau.
 
 ```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Représentation cartographique de la suppression de la classe et des déplacements engendrés', }
 knitr::include_graphics(rep("./img/locaviz.png"))
@@ -99,7 +99,7 @@ Comment analyser ces déplacements pour apporter des solutions efficaces permett
 knitr::include_graphics(rep("./img/iped.png"))
 ```
 
-**Produit Final** : l'équipe a élaboré un maquette de plateforme permettant de visualiser l’évolution d’un Indice de Performance des Déplacements (IPED) en fonction de l’évolution de paramètres qui déterminent l’offre éducative.
+**Produit Final** : l'équipe a élaboré une maquette de plateforme permettant de visualiser l’évolution d’un Indice de Performance des Déplacements (IPED) en fonction de l’évolution de paramètres qui déterminent l’offre éducative.
 ```{r echo=FALSE, out.width='60%', fig.align='center', fig.cap='Maquette de la plateforme IPED.', }
 knitr::include_graphics(rep("./img/iped2.png"))
 ```
