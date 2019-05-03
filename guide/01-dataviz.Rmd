@@ -110,6 +110,8 @@ Selon le lieu de résidence de l’enseignant, les matières et options enseign�
 
 ### Projet Spé et ruralité
 
+> **[Lien vers la documentation](http://datavizchallenge.fr/t/defi-n-1-spe-et-ruralite-ok/111)**
+
 Le projet vise à assurer l’égalité de tous sur l’accès aux spécialités en particulier dans les territoires ruraux. Comment limiter le temps de déplacement d’un élève ayant choisi une option qui n’est pas dans l’établissement où il est scolarisé ? Les participants ont souhaité développer un outil permettant de consulter la cartographie des lycées proposant les options et de proposer des solutions ou des alternatives aux élèves qui ne peuvent pas se rendre dans l’établissement. Du fait de la technicité des données, ce projet n’a pas pu être réalisé mais plusieurs axes de réflexion ont été développés dans ce projet : 
 
 **Temporalité des attributions de spécialités**
