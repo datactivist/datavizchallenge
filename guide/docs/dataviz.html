@@ -24,7 +24,7 @@
 <meta name="author" content="Samuel Goëta (Datactivist) pour le lab 110bis du ministère de l’Éducation nationale" />
 
 
-<meta name="date" content="2019-04-26" />
+<meta name="date" content="2019-05-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -174,21 +174,24 @@ Figure 1.1: Extrait du livret du dataviz challenge représentant la diversité d
 <div id="projet-mixite-sociale" class="section level3">
 <h3><span class="header-section-number">1.1.2</span> 🏆 Projet “Mixité Sociale”</h3>
 <blockquote>
-<p><em>Ce projet a été retenu par le jury pour le défi 1.</em><br /> Lien vers le code et la documentation : <a href="https://github.com/kir0ul/DataTerr" class="uri">https://github.com/kir0ul/DataTerr</a></p>
+<p><em>Ce projet a été retenu par le jury pour le défi 1.</em><br />
+Lien vers le code et la documentation : <a href="https://github.com/kir0ul/DataTerr" class="uri">https://github.com/kir0ul/DataTerr</a></p>
 </blockquote>
 <p><strong>Contexte</strong></p>
 <p>Au sein d’un périmètre restreint, des établissements peuvent être caractérisés par des niveaux de mixité sociale, entendue comme la représentation équilibrée de toutes les différentes professions et catégories socioprofessionnelles (PCS), très inégaux.</p>
 <p>A Bordeaux, trois collèges publics voisins ont des indices de mixité respectifs de 30,4, 46,2 et 9,7 %, tandis que la moyenne académique est de 34,9%.</p>
 <p>Comment améliorer cet indice, notamment pour les établissements où il demeure faible ? Comment identifier les variables sur lesquelles jouer et leur impact plausible sur l’indice de mixité d’établissements proches ?</p>
-<p><strong>Produit final</strong> S’appuyant sur QGIS pour explorer les données, l’équipe s’est focalisée sur la ville de Bordeaux pour laquelle nous disposions des données de carte scolaire. Chaque établissement est représenté par ses indicateurs PCS, le nombre d’élèves de secteur non présents dans l’établissement, l’indicateur PCS_D (catégories sociaux professionnelles défavorisées) prédit par le modèle et enfin l’indicateur PCS_D après déplacement d’options.</p>
+<p><strong>Produit final</strong>
+S’appuyant sur QGIS pour explorer les données, l’équipe s’est focalisée sur la ville de Bordeaux pour laquelle nous disposions des données de carte scolaire. Chaque établissement est représenté par ses indicateurs PCS, le nombre d’élèves de secteur non présents dans l’établissement, l’indicateur PCS_D (catégories sociaux professionnelles défavorisées) prédit par le modèle et enfin l’indicateur PCS_D après déplacement d’options.</p>
 <p>L’équipe avait aussi pour projet de développer une aide à la modification des cartes scolaires, non réalisée faute de temps.</p>
 <div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
-<img src="img/Diagramme_Publics_Prives.png" alt="Exemple de carte prédisantle  niveau de mixité sociale" width="60%" />
+<img src="img/Diagramme_Publics_Prives.png" alt="Exemple de carte prédisant le niveau de mixité sociale" width="60%" />
 <p class="caption">
-Figure 1.2: Exemple de carte prédisantle niveau de mixité sociale
+Figure 1.2: Exemple de carte prédisant le niveau de mixité sociale
 </p>
 </div>
-<p><strong>Méthode</strong> Le modèle choisi est un <a href="https://fr.wikipedia.org/wiki/For%C3%AAt_d%27arbres_d%C3%A9cisionnels">régresseur à base de forêts aléatoires</a>. La variable à prédire est le taux d’élèves en PCS très défavorisé et les variables d’entrée sont le nombre d’élèves, secteur/privé, le nombre d’options disponibles et les options d’intérêt.</p>
+<p><strong>Méthode</strong>
+Le modèle choisi est un <a href="https://fr.wikipedia.org/wiki/For%C3%AAt_d%27arbres_d%C3%A9cisionnels">régresseur à base de forêts aléatoires</a>. La variable à prédire est le taux d’élèves en PCS très défavorisée et les variables d’entrée sont le nombre d’élèves, le secteur (public ou privé), le nombre d’options disponibles et les options d’intérêt.</p>
 <div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-3"></span>
 <img src="img/model-diag.png" alt="Représentation synthétique du modèle" width="60%" />
 <p class="caption">
@@ -239,7 +242,7 @@ Figure 1.6: Carte représentant les déplacements effectués par les enseignemen
 Figure 1.7: Maquette de la plateforme IPED.
 </p>
 </div>
-<p><strong>Méthode</strong> : Le projet a abouti à la création d’un indicateur IPED . Indice annuel d’évaluation de l’impact mobilité des enseignants de base 100, il se compose de l’addition des trajets à vol d’oiseau de chacun.e des enseignant.e.s.</p>
+<p><strong>Méthode</strong> : Le projet a abouti à la création d’un indicateur IPED. Indice annuel d’évaluation de l’impact mobilité des enseignants de base 100, il se compose de l’addition des trajets à vol d’oiseau de chacun.e des enseignant.e.s.</p>
 <p>Selon le lieu de résidence de l’enseignant, les matières et options enseignées et la typologie de l’établissement, un algorithme recommande un scénario d’optimisation des trajets.</p>
 </div>
 </div>
@@ -259,10 +262,15 @@ Figure 1.7: Maquette de la plateforme IPED.
 <div id="projet-eduscope" class="section level3">
 <h3><span class="header-section-number">1.2.2</span> 🏆Projet Eduscope</h3>
 <blockquote>
-<p><em>Ce projet a été retenu par le jury pour le défi 2.</em><br /> Lien vers l’outil : <a href="https://avouacr.shinyapps.io/eduscope_shinyapp" class="uri">https://avouacr.shinyapps.io/eduscope_shinyapp</a> <br /> Lien vers le code et la documentation : <a href="https://github.com/avouacr/EduScope" class="uri">https://github.com/avouacr/EduScope</a></p>
+<p><em>Ce projet a été retenu par le jury pour le défi 2.</em><br />
+Lien vers l’outil : <a href="https://avouacr.shinyapps.io/eduscope_shinyapp" class="uri">https://avouacr.shinyapps.io/eduscope_shinyapp</a> <br />
+Lien vers le code et la documentation : <a href="https://github.com/avouacr/EduScope" class="uri">https://github.com/avouacr/EduScope</a></p>
 </blockquote>
 <p><strong>Contexte</strong> : Les recteurs, agents du ministère ou chefs d’établissement ont souvent besoin d’obtenir rapidement des informations sur les caractéristiques générales et les spécificités d’un établissement cible. Aujourd’hui ces informations se trouvent dispersées et stockées dans différentes bases de données (ex: GAIA, Mosart, EPI…), ce qui limite leur accessibilité, leur lisibilité et peut donc complexifier la prise de décision.</p>
-<p>Quel outil pourrait donc répondre aux besoins des différents utilisateurs que sont : * la visualisation rapide d’indicateurs ; * la mobiquité ; * l’aide à la prise de décisions ?</p>
+<p>Quel outil pourrait donc répondre aux besoins des différents utilisateurs que sont :
+* la visualisation rapide d’indicateurs ;
+* la mobiquité ;
+* l’aide à la prise de décisions ?</p>
 <p><strong>Produit final</strong> : Plateforme interactive qui permet de centraliser et de visualiser divers indicateurs de performance scolaire. La priorisation des indicateurs d’intérêt s’adapte en fonction du profil utilisateur (recteur, chef d’établissement, service support…) et de l’échelle de prise de décision souhaitée (nationale, académique, départementale, locale, individuelle), tout en demeurant flexible.</p>
 <div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-8"></span>
 <img src="img/eduscope.png" alt="Vue synthétique des données disponibles par établissement." width="60%" />
@@ -309,14 +317,21 @@ Figure 1.10: Maquette du service Antisèche
 <h2><span class="header-section-number">1.3</span> Défi 3 : «Carto du numérique dans les territoires»</h2>
 <div id="cadrage-du-defi-2" class="section level3">
 <h3><span class="header-section-number">1.3.1</span> Cadrage du défi</h3>
-<p>eCarto est un outil créé par la Caisse des Dépôts, en partenariat avec le ministère de l’Education nationale et de la Jeunesse et les associations de collectivités. Il permet de visualiser le déploiement du numérique éducatif dans chacun des 63 000 établissements scolaires, en rassemblant les données en open data sur la connectivité, l’équipement, les ressources et les expérimentations. Il a vocation à être un outil permettant : * au plus grand nombre de s’informer sur l’état du numérique éducatif en France ; * aux décideurs publics d’ajuster l’accompagnement des académies et des collectivités en matière de déploiement du numérique éducatif ; * aux acteurs des politiques éducatives locales d’identifier plus facilement les établissements où un enseignement à distance serait possible dans de bonnes conditions.</p>
+<p>eCarto est un outil créé par la Caisse des Dépôts, en partenariat avec le ministère de l’Education nationale et de la Jeunesse et les associations de collectivités. Il permet de visualiser le déploiement du numérique éducatif dans chacun des 63 000 établissements scolaires, en rassemblant les données en open data sur la connectivité, l’équipement, les ressources et les expérimentations. Il a vocation à être un outil permettant :
+* au plus grand nombre de s’informer sur l’état du numérique éducatif en France ;
+* aux décideurs publics d’ajuster l’accompagnement des académies et des collectivités en matière de déploiement du numérique éducatif ;
+* aux acteurs des politiques éducatives locales d’identifier plus facilement les établissements où un enseignement à distance serait possible dans de bonnes conditions.</p>
 <p><strong>Objectifs</strong> : faciliter l’appropriation des données relatives au déploiement du numérique éducatif en France en augmentant l’outil eCarto.</p>
-<p><strong>3 questions pour démarrer le DataViz Challenge :</strong> * Quelles sont les disparités territoriales observables ? * Quelles données complémentaires et extensions possibles pour enrichir la représentation du niveau de maturité numérique d’un territoire ? * Quelles mises en perspective possibles entre niveau de maturité numérique et niveau d’enclavement / isolement géographique d’un territoire ?</p>
+<p><strong>3 questions pour démarrer le DataViz Challenge :</strong>
+* Quelles sont les disparités territoriales observables ?
+* Quelles données complémentaires et extensions possibles pour enrichir la représentation du niveau de maturité numérique d’un territoire ?
+* Quelles mises en perspective possibles entre niveau de maturité numérique et niveau d’enclavement / isolement géographique d’un territoire ?</p>
 </div>
 <div id="alain-jette" class="section level3">
 <h3><span class="header-section-number">1.3.2</span> 🏆Alain Jette</h3>
 <blockquote>
-<p><strong>Projet retenu par le jury pour le défi 3</strong> <br/> <strong><a href="https://drive.google.com/drive/folders/1dkZBb5xC6zCmAiD-EKUGl0TThzRDolEe">Lien vers la documentation</a></strong></p>
+<p><strong>Projet retenu par le jury pour le défi 3</strong> <br/>
+<strong><a href="https://drive.google.com/drive/folders/1dkZBb5xC6zCmAiD-EKUGl0TThzRDolEe">Lien vers la documentation</a></strong></p>
 </blockquote>
 <p><strong>Contexte :</strong>Les établissements scolaires regorgent de projets pédagogiques. Cependant, ceux-ci ont souvent peu de visibilité au sein de leur territoire. Ce qui peut limiter leur portée et l’investissement qu’ils reçoivent en ressources humaines, financières et matérielles nécessaires à leur portage. Cette opacité peut également jouer sur l’image d’un établissement, les indicateurs standards ne permettant pas d’en valoriser la prise d’initiatives, la créativité et le dynamisme internes.</p>
 <p>Comment rendre visible les projets pédagogiques sur un territoire afin de développer l’inspiration , le partenariat et l’action de tous ?</p>
