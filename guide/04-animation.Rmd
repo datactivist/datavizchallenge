@@ -1,4 +1,4 @@
-# L’animation du data sprint {#animation}
+# L’animation du sprint data {#animation}
 
 Pendant le café avant le lancement du Dataviz Challenge, nous avons distribué des **fiches d'auto-évaluation** qui permettent aux participants de mettre en avant leurs compétences. Organisées autour de 5 profils essentiels  (narrateur, analyste, technicien de données, explorateur, designer), la matrice sert avant tout à faire passer le message que la réalisation d'un projet dans le cadre d'un sprint data est un sport d'équipe. En effet, une équipe qui concentre uniquement un de ces profils aura peu de chances de produire de bons résultats. C'est seulement dans l'intelligence collective que les projets parviennent à raconter une histoire et à montrer des résultats. Les matrices ont servi dans la constitution des équipes pour re-répartir les profils entre les groupes.
 

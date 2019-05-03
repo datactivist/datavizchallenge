@@ -1,4 +1,4 @@
-# Les points d'attention dans la préparation du data sprint {#preparation}
+# Les points d'attention dans la préparation du sprint data {#preparation}
 
 ## Planifier et répartir le travail
 
