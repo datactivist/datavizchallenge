@@ -16,7 +16,7 @@ Les 3 défis du dataviz challenge ont été identifiés lors d’une journée co
 
 Les défis 1 et 2 se sont appuyés sur des données qui ne sont pas librement réutilisables en open data. Bien qu'anonymisées, ces données concernaient des personnes physiques ou morales et les participants se sont engagés à ne pas altérer les données ou dénaturer leur sens ainsi qu'à présenter les résultats de manière à ne pas permettre une éventuelle identification.
 
-## Défi 1 : «Les déplacements en cascade»
+## Défi 1 : les déplacements en cascade
 
 ### Cadrage du défi
 
@@ -108,6 +108,22 @@ knitr::include_graphics(rep("./img/iped2.png"))
 
 Selon le lieu de résidence de l’enseignant, les matières et options enseignées et la typologie de l’établissement, un algorithme recommande un scénario d’optimisation des trajets.
 
+### Projet Spé et ruralité
+
+Le projet vise à assurer l’égalité de tous sur l’accès aux spécialités en particulier dans les territoires ruraux. Comment limiter le temps de déplacement d’un élève ayant choisi une option qui n’est pas dans l’établissement où il est scolarisé ? Les participants ont souhaité développer un outil permettant de consulter la cartographie des lycées proposant les options et de proposer des solutions ou des alternatives aux élèves qui ne peuvent pas se rendre dans l’établissement. Du fait de la technicité des données, ce projet n’a pas pu être réalisé mais plusieurs axes de réflexion ont été développés dans ce projet : 
+
+**Temporalité des attributions de spécialités**
+Actuellement, le Recteur décide de la répartition des spécialités par établissement au mois de  Janvier, moment où la dotation horaire globale est attribuée aux établissements. Or, les élèves font leurs choix de spécialités au cours du deuxième trimestre, après que le Recteur ait fait la répartition. On peut s’interroger s’il faut définir plus tôt dans l’année les choix de spécialités des élèves ou que le Recteur revoit la répartition des spécialités plus tard dans l’année. 
+
+**Délocalisation des cours**
+Dans certains cas, la configuration des territoires ne pourra pas permettre de satisfaire toutes les demandes. Il peut donc être utile de délocaliser un cours. Le groupe a tenté de visualiser l’idée qu’il faudrait trouver un barycentre, un centre de gravité qui rapproche tous les élèves souhaitant assister à une option. 
+
+Plusieurs options : 
+
+* fréquentation ponctuel d’un internat pour offrir une solution d’hébergement aux élèves et faciliter leur trajet pour aller dans l’établissement qui propose l’option
+* fréquentation d’une salle mise à disposition par sa commune pour de l’enseignement à distance
+* dispense de certains cours dans un tiers-lieu par visio-conférence.
+
 
 ## Défi 2 : la carte d’identité des établissements en temps réel
 
@@ -176,7 +192,7 @@ L’outil propose également une vision évolutive de ces indicateurs dans le te
 knitr::include_graphics(rep("./img/antiseche.png"))
 ```
 
-## Défi 3 : «Carto du numérique dans les territoires»
+## Défi 3 : carto du numérique dans les territoires
 
 ### Cadrage du défi
 
@@ -229,3 +245,35 @@ knitr::include_graphics(rep("./img/pan.png"))
 * Création d’un indicateur synthétique (Numeriscor) croisant les données existantes (débit internet, nombre d’élève parterminal, vétusté des équipements, etc.) et d’autres données aujourd’hui difficilement trouvables (qualification des professeurs C2i2e, nombre de formations sur le numérique, etc.) ;
 * intégration de l’indicateur à eCarto et à la fiche de chaque établissement ;
 * création d’une moyenne départementale et nationale sur eCarto permettant de positionner facilement un établissement par rapport aux autres et identifier ceux en difficultés.
+
+### Cartorézo
+
+> **[Lien vers la documentation](http://datavizchallenge.fr/t/sujet-3-cartographier-les-ressources-pedagogiques/105/3?u=samuel)**
+
+**Contexte** : Les données de l’outil e-carto peuvent parfois manquer de lisibilité pour les décideurs publics.  L’outil ne semble en effet pas avoir été conçu pour un profil d’utilisateur cible et son design peu pensé pour faciliter la prise de décision. 
+
+Comment donner un sens aux données présentes dans e-Carto ? Comment la data visualisation peut elle permettre de les rendre plus parlantes et utilses pour un nombre élargi d’acteurs décisionnaires ? 
+
+
+**Produit final** : Prototype de plateforme web visant à mettre en lumière les potentiels de collaboration et d’e partage de ressources des établissements. Chaque lycée est géolocalisé, et peut donc prendre conscience des différentes structures qui l’entourent (bibliothèques, associations dans le numérique, tiers-lieux) et d’accéder à leur fiche descriptive. 
+
+Elle permet également d’évaluer les potentiels de collaboration des établissements entre eux ou avec les structures environnantes, notamment grâce à un système de recommandations. Plus un acteur coopère, plus il est mis en valeur sur la carte. 
+
+
+```{r echo=FALSE, out.width='70%', fig.align='center', fig.cap='Prototype de la plateforme Cartorezo', }
+knitr::include_graphics(rep("./img/cartorezo.png"))
+```
+
+**Méthode** : 
+
+Le prototype s'appuie sur les données de l’enquête sur les technologies de l’information et de la communication  (ETIC). L'équipe a regardé les variables présentes une à une pour identifier les données à regrouper comme le nombre de terminaux par élève et le débit de l’école (avec une mauvaise connexion, ces tablettes serviront peu) et les données extérieures à mobiliser pour leur donner du sens (ex: équipement par professeur (ETIC) et formation au usages numériques (GAIA)).
+
+En fonction des différentes relations identifiées, la plateforme devait idéalement proposer des “thématiques” (avec un format tableau de bord), adressées à des acteurs spécifiques : 
+
+* “**Collaboration**” : regroupe des données sur l'équipement numérique des établissements avec des données disponibles en open data sur les tiers-lieux, les bibliothèques, et les associations , afin que directeurs d’établissement et professeurs prennent conscience de l’écosystème qui les entoure 
+
+* **“Urgence”** : regroupe toutes les variables qui témoignent d’un retard dans le numérique (ex: équipement de plus de 5 ans, pas de maintenance informatique, pas de ressources numériques, faible débit), visibles d’un coup d’œil pour les recteurs, avec une identification des problèmes de chaque lycée.
+
+* “**Pilotage numérique**” : indique aux directeurs d’établissement  leur situation en termes d’équipement (terminaux par élève, débit, numérisation des process…) par rapport aux autres établissements. 
+
+L'équipe s'est concentrée sur le premier point du fait de la technicité des données et du temps imparti.
