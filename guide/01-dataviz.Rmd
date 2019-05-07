@@ -119,12 +119,19 @@ Actuellement, le Recteur décide de la répartition des spécialités par établ
 
 **Délocalisation des cours**
 Dans certains cas, la configuration des territoires ne pourra pas permettre de satisfaire toutes les demandes. Il peut donc être utile de délocaliser un cours. Le groupe a tenté de visualiser l’idée qu’il faudrait trouver un barycentre, un centre de gravité qui rapproche tous les élèves souhaitant assister à une option. 
+ous viendrions lui proposer un outil numérique.
 
-Plusieurs options : 
+L'outil envisagé est une carte interactive qui permet au recteur de visualiser les spécialités afin de repérer les zones blanches et les distorsions entre l'offre et la demande. 
 
-* fréquentation ponctuel d’un internat pour offrir une solution d’hébergement aux élèves et faciliter leur trajet pour aller dans l’établissement qui propose l’option
-* fréquentation d’une salle mise à disposition par sa commune pour de l’enseignement à distance
-* dispense de certains cours dans un tiers-lieu par visio-conférence.
+```{r echo=FALSE, out.width='70%', fig.align='center', fig.cap='Les calques sur la carte présentée lors du Dataviz Challenge ', }
+knitr::include_graphics(rep("./img/Carte annotée.png"))
+```
+
+Le prototype réalisé à partir de calques permet de superposer :
+* Le domicile de l'élève
+* L’établissement dans lequel Léa est scolarisée avec la spécialité choisie
+* La carte des internats
+* La carte des tiers-lieux
 
 
 ## Défi 2 : la carte d’identité des établissements en temps réel

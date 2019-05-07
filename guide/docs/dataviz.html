@@ -24,7 +24,7 @@
 <meta name="author" content="Samuel Goëta (Datactivist) pour le lab 110bis du ministère de l’Éducation nationale" />
 
 
-<meta name="date" content="2019-05-03" />
+<meta name="date" content="2019-05-06" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -256,13 +256,20 @@ Figure 1.7: Maquette de la plateforme IPED.
 <p><strong>Temporalité des attributions de spécialités</strong>
 Actuellement, le Recteur décide de la répartition des spécialités par établissement au mois de Janvier, moment où la dotation horaire globale est attribuée aux établissements. Or, les élèves font leurs choix de spécialités au cours du deuxième trimestre, après que le Recteur ait fait la répartition. On peut s’interroger s’il faut définir plus tôt dans l’année les choix de spécialités des élèves ou que le Recteur revoit la répartition des spécialités plus tard dans l’année.</p>
 <p><strong>Délocalisation des cours</strong>
-Dans certains cas, la configuration des territoires ne pourra pas permettre de satisfaire toutes les demandes. Il peut donc être utile de délocaliser un cours. Le groupe a tenté de visualiser l’idée qu’il faudrait trouver un barycentre, un centre de gravité qui rapproche tous les élèves souhaitant assister à une option.</p>
-<p>Plusieurs options :</p>
-<ul>
-<li>fréquentation ponctuel d’un internat pour offrir une solution d’hébergement aux élèves et faciliter leur trajet pour aller dans l’établissement qui propose l’option</li>
-<li>fréquentation d’une salle mise à disposition par sa commune pour de l’enseignement à distance</li>
-<li>dispense de certains cours dans un tiers-lieu par visio-conférence.</li>
-</ul>
+Dans certains cas, la configuration des territoires ne pourra pas permettre de satisfaire toutes les demandes. Il peut donc être utile de délocaliser un cours. Le groupe a tenté de visualiser l’idée qu’il faudrait trouver un barycentre, un centre de gravité qui rapproche tous les élèves souhaitant assister à une option.
+ous viendrions lui proposer un outil numérique.</p>
+<p>L’outil envisagé est une carte interactive qui permet au recteur de visualiser les spécialités afin de repérer les zones blanches et les distorsions entre l’offre et la demande.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-8"></span>
+<img src="img/Carte%20annote%CC%81e.png" alt="Les calques sur la carte présentée lors du Dataviz Challenge " width="70%" />
+<p class="caption">
+Figure 1.8: Les calques sur la carte présentée lors du Dataviz Challenge
+</p>
+</div>
+<p>Le prototype réalisé à partir de calques permet de superposer :
+* Le domicile de l’élève
+* L’établissement dans lequel Léa est scolarisée avec la spécialité choisie
+* La carte des internats
+* La carte des tiers-lieux</p>
 </div>
 </div>
 <div id="defi-2-la-carte-didentite-des-etablissements-en-temps-reel" class="section level2">
@@ -293,10 +300,10 @@ Lien vers le code et la documentation : <a href="https://github.com/avouacr/EduS
 <li><p>l’aide à la prise de décisions ?</p></li>
 </ul>
 <p><strong>Produit final</strong> : Plateforme interactive qui permet de centraliser et de visualiser divers indicateurs de performance scolaire. La priorisation des indicateurs d’intérêt s’adapte en fonction du profil utilisateur (recteur, chef d’établissement, service support…) et de l’échelle de prise de décision souhaitée (nationale, académique, départementale, locale, individuelle), tout en demeurant flexible.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-8"></span>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-9"></span>
 <img src="img/eduscope.png" alt="Vue synthétique des données disponibles par établissement." width="60%" />
 <p class="caption">
-Figure 1.8: Vue synthétique des données disponibles par établissement.
+Figure 1.9: Vue synthétique des données disponibles par établissement.
 </p>
 </div>
 <p>La plateforme permet également de visualiser l’évolution des différents indicateurs dans le temps, mais aussi de faire circuler des informations qualitatives entre utilisateurs.</p>
@@ -310,10 +317,10 @@ Figure 1.8: Vue synthétique des données disponibles par établissement.
 <p>Comment remettre les élèves au centre de l’identité et du processus de décision des établissements ?</p>
 <p><strong>Produit final</strong> : la maquette de plateforme participative donne aux élèves pourvus d’un identifiant la possibilité de réagir, partager leur ressenti, mais aussi émettre des propositions pour améliorer la vie dans leur établissement.</p>
 <p>Elle propose également une vision géolocalisée de l’établissement leur permettant d’identifier les offres pédagogiques, sportives et culturelles à proximité, puis d’effectuer un retour d’expérience sur ces offres.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-9"></span>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-10"></span>
 <img src="img/open.png" alt="Visuels du service OPEN." width="70%" />
 <p class="caption">
-Figure 1.9: Visuels du service OPEN.
+Figure 1.10: Visuels du service OPEN.
 </p>
 </div>
 </div>
@@ -326,10 +333,10 @@ Figure 1.9: Visuels du service OPEN.
 <p>Comment concevoir un outil répondant à l’ensemble de ces besoins ?</p>
 <p><strong>Produit final</strong>: le prototype d’application permet une visualisation géolocalisée des établissements et l’accès à une présentation synthétique et ergonomique des principaux indicateurs (nombre d’élèves, taux de réussite au Brevet des Collèges, cours et options proposées, capacité d’accueil, nombre d’enseignants par élève, etc).</p>
 <p>L’outil propose également une vision évolutive de ces indicateurs dans le temps, ainsi qu’une fonction de filtre permettant de cibler les variables d’intérêt ¨</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-10"></span>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-11"></span>
 <img src="img/antiseche.png" alt="Maquette du service Antisèche" width="40%" />
 <p class="caption">
-Figure 1.10: Maquette du service Antisèche
+Figure 1.11: Maquette du service Antisèche
 </p>
 </div>
 </div>
@@ -357,10 +364,10 @@ Figure 1.10: Maquette du service Antisèche
 <p><strong>Contexte :</strong>Les établissements scolaires regorgent de projets pédagogiques. Cependant, ceux-ci ont souvent peu de visibilité au sein de leur territoire. Ce qui peut limiter leur portée et l’investissement qu’ils reçoivent en ressources humaines, financières et matérielles nécessaires à leur portage. Cette opacité peut également jouer sur l’image d’un établissement, les indicateurs standards ne permettant pas d’en valoriser la prise d’initiatives, la créativité et le dynamisme internes.</p>
 <p>Comment rendre visible les projets pédagogiques sur un territoire afin de développer l’inspiration , le partenariat et l’action de tous ?</p>
 <p><strong>Produit final</strong>: une maquette de carte multidimensionnelle et collaborative des projets pédagogiques dont le design est inspiré de l’univers LEGO® invite à concevoir les projets pédagogiques comme des co-constructions. L’outil recense l’ensemble des projets organisés sur un territoire (ici l’Académie de Dijon) ainsi que leur description.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-11"></span>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-12"></span>
 <img src="img/alainjette.png" alt="Illustrations du projet à partir de LEGO." width="70%" />
 <p class="caption">
-Figure 1.11: Illustrations du projet à partir de LEGO.
+Figure 1.12: Illustrations du projet à partir de LEGO.
 </p>
 </div>
 <p>Il offre également un module de recherche ciblée selon des critères structurels (nombre d’élèves, budget, durée, etc) et fonctionnels (utilisation des outils numériques, pédagogie innovante, interdisciplinarité, etc). Cette recherche affinée est amenée à faciliter la conclusion de partenariats et le partage de ressources entre les équipes pédagogiques, mais peut aussi aider le recteur à piloter son académie. Elle valorise ainsi aussi bien le projet que son établissement d’accueil.</p>
@@ -373,10 +380,10 @@ Figure 1.11: Illustrations du projet à partir de LEGO.
 <p><strong>Contexte</strong> : Les établissements scolaires sont les premiers touchés par les effets de la “fracture numérique”. Ces inégalités ne se réduisent pas à l’accès aux équipements informatiques mais sont aussi fonction de la couverture numérique de l’établissement, sa catégorie (ex: REP/REP+), ses financements, son nombre d’enseignants, leurs formations…</p>
 <p>Comment mesurer et visualiser les écarts de facilité d’accès au numérique entre différents établissements en tenant compte de tous ces paramètres pour mieux adapter les réponses politiques et évaluer leurs impacts?</p>
 <p><strong>Produit final</strong> : Maquette de cartes en relief permettant de visualiser un indicateur synthétique d’accès au numérique, d’en cibler les composantes et de les comparer à ceux des établissements environnants et à la moyenne nationale.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-12"></span>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-13"></span>
 <img src="img/pan.png" alt="Indicateur synthétique sur accès au numérique" width="70%" />
 <p class="caption">
-Figure 1.12: Indicateur synthétique sur accès au numérique
+Figure 1.13: Indicateur synthétique sur accès au numérique
 </p>
 </div>
 <p><strong>Méthode</strong> :</p>
@@ -395,10 +402,10 @@ Figure 1.12: Indicateur synthétique sur accès au numérique
 <p>Comment donner un sens aux données présentes dans e-Carto ? Comment la data visualisation peut elle permettre de les rendre plus parlantes et utilses pour un nombre élargi d’acteurs décisionnaires ?</p>
 <p><strong>Produit final</strong> : Prototype de plateforme web visant à mettre en lumière les potentiels de collaboration et d’e partage de ressources des établissements. Chaque lycée est géolocalisé, et peut donc prendre conscience des différentes structures qui l’entourent (bibliothèques, associations dans le numérique, tiers-lieux) et d’accéder à leur fiche descriptive.</p>
 <p>Elle permet également d’évaluer les potentiels de collaboration des établissements entre eux ou avec les structures environnantes, notamment grâce à un système de recommandations. Plus un acteur coopère, plus il est mis en valeur sur la carte.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-13"></span>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-14"></span>
 <img src="img/cartorezo.png" alt="Prototype de la plateforme Cartorezo" width="70%" />
 <p class="caption">
-Figure 1.13: Prototype de la plateforme Cartorezo
+Figure 1.14: Prototype de la plateforme Cartorezo
 </p>
 </div>
 <p><strong>Méthode</strong> :</p>
