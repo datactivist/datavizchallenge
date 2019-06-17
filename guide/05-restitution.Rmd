@@ -39,7 +39,7 @@ Il faut donc prévoir un temps de reprise de la documentation des projets. Cela 
 
 ## Le sondage et le débriefing 
 
-A la suite de l'évènement, pensez à envoyer rapidement un courriel de remerciement contenant un sondage de satisfaction. Vous pouvez reprendre le modèle de questionnaire développé pour le Dataviz Challenge qui est disponible à cette adresse : https://framaforms.org/dataviz-challenge-debrief-participant-1553679222. N'hésitez pas à rajouter des champs qualitatifs qui vous permettront de mieux comprendre les notations et d'identifier les pistes d'amélioration. 
+A la suite de l'évènement, pensez à envoyer rapidement un courriel de remerciement contenant un sondage de satisfaction. Vous pouvez reprendre le modèle de questionnaire développé pour le Dataviz Challenge qui est disponible à [cette adresse]( https://framaforms.org/dataviz-challenge-debrief-participant-1553679222). N'hésitez pas à rajouter des champs qualitatifs qui vous permettront de mieux comprendre les notations et d'identifier les pistes d'amélioration. 
 
 Les résultats du sondage doivent être analysés collectivement lors d'une réunion de debriefing à laquelle peuvent participer tous les membres de l'équipe d'organisation. Lors du debriefing du Dataviz Challenge, nous avons eu recours à la méthode DAKI comme Drop, Add, Keep, Improve (Enlever, Ajouter, Garder, Améliorer) qui permet de noter les points de satisfaction et d'améliorer (voir [documentation de la méthode par Xpedition Framework](https://xpeditionframework.co/ressources/composants/daki)). 
 

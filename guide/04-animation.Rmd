@@ -67,9 +67,9 @@ Un sprint data peut être éprouvant pour les participants. Même si le temps d�
 
 Lors du dataviz challenge, les participants pouvaient assister dans une salle à part (pour ne pas déranger le travail des groupes) à des sessions de formation de 30 minutes sur des sujets liés à la visualisation de données : 
 
-* le premier atelier [[support](https://datactivist.coop/datavizchallenge/1/#1)]  synthétise des bonnes pratiques et exemples  de visualisation de données autour de trois principes pour une dataviz réussie : rigueur, lisibilité, éloquence ; 
+* le premier atelier ([support](https://datactivist.coop/datavizchallenge/1/#1)) synthétise des bonnes pratiques et exemples  de visualisation de données autour de trois principes pour une dataviz réussie : rigueur, lisibilité, éloquence ; 
 
-* le deuxième atelier [[support](https://datactivist.coop/datavizchallenge/2/#1)] est une introduction au data pipeline, une méthodologie générique développée par [School of Data](https://schoolofdata.org/methodology/) de réutilisation de données qui décrit étape par étape les différentes phases d'un projet data ; 
+* le deuxième atelier ([support](https://datactivist.coop/datavizchallenge/2/#1)) est une introduction au data pipeline, une méthodologie générique développée par [School of Data](https://schoolofdata.org/methodology/) de réutilisation de données qui décrit étape par étape les différentes phases d'un projet data ; 
 
 * le troisième atelier présente des ressources pour choisir un format de data visualisation : le [Dataviz Project](https://datavizproject.com) qui catalogue les formats de visualisation en fonction des usages, un article très complet de [Lisa Charlotte Rost](https://lisacharlotterost.github.io/datavistools-revisited) qui propose neuf outils en reproduisant à chaque fois la même visualisation et enfin le [Chartmaker Directory](http://chartmaker.visualisingdata.com/) qui synthétise avec de nombreux exemples les formats de visualisation proposés par une vingtaine d'outils. 
 

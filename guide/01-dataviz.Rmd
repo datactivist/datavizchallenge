@@ -210,14 +210,19 @@ knitr::include_graphics(rep("./img/antiseche.png"))
 
 eCarto est un outil créé par la Caisse des Dépôts, en partenariat avec le ministère de l’Education nationale et de la Jeunesse et les associations de collectivités. Il permet de visualiser le déploiement du numérique éducatif dans chacun des 63 000 établissements scolaires, en rassemblant les données en open data sur la connectivité, l’équipement, les ressources et les expérimentations. Il a vocation à être un outil permettant :
 * au plus grand nombre de s’informer sur l’état du numérique éducatif en France ;
+
 * aux décideurs publics d’ajuster l’accompagnement des académies et des collectivités en matière de déploiement du numérique éducatif ;
+
 * aux acteurs des politiques éducatives locales d’identifier plus facilement les établissements où un enseignement à distance serait possible dans de bonnes conditions.
 
 **Objectifs** : faciliter l’appropriation des données relatives au déploiement du numérique éducatif en France en augmentant l’outil eCarto.
 
 **3 questions pour démarrer le DataViz Challenge :**
+
 * Quelles sont les disparités territoriales observables ?
+
 * Quelles données complémentaires et extensions possibles pour enrichir la représentation du niveau de maturité numérique d’un territoire ?
+
 * Quelles mises en perspective possibles entre niveau de maturité numérique et niveau d’enclavement / isolement géographique d’un territoire ?
 
 ### 🏆Alain Jette
