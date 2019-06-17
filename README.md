@@ -1,4 +1,6 @@
-Ateliers lors du dataviz challenge du ministère de l'éducation nationale (22-23 mars 2019)
+## [Guide de l'organisation d'un sprint data](https://datactivist.coop/datavizchallenge/guide/docs/index.html)
+
+Ateliers lors du dataviz challenge du ministère de l'éducation nationale (22-23 mars 2019) :
 
 ## [Atelier 1 "Visualiser les chiffres : rigueur - lisibilité - éloquence"](https://datactivist.coop/datavizchallenge/1/#1)
 
